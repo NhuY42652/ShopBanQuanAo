@@ -1,0 +1,69 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.SuKien>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Quản Lý Sự Kiện</h1>
+
+<p>
+    <a asp-action="Create">Thêm mới</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenSuKien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoTa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayBatDau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayKetThuc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayTao)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSuKien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoTa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayBatDau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayKetThuc)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayTao)
+            </td>
+                <td class="text-center align-middle">
+                    
+                    <a asp-action="Edit" asp-route-id="@item.SuKienId" class="btn btn-sm btn-success mb-1" title="Chỉnh sửa">
+                        <i class="fas fa-edit"></i> Sửa
+                    </a>
+                   
+                    <a asp-action="Details" asp-route-id="@item.SuKienId" class="btn btn-sm btn-warning mb-1" title="Chi tiết">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </a>
+                   
+                    <a asp-action="Delete" asp-route-id="@item.SuKienId" class="btn btn-sm btn-danger" title="Xóa">
+                        <i class="fas fa-trash-alt"></i> Xóa
+                    </a>
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

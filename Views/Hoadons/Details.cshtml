@@ -1,0 +1,102 @@
+﻿@model ShopBanQuanAoOnline.Models.Hoadon
+
+@{
+    ViewData["Title"] = "Details";
+    var diaChiMacDinh = Model.MaKhNavigation.Diachis?.FirstOrDefault(dc => dc.MacDinh == 1);
+    string diaChiHienThi = diaChiMacDinh?.DiaChi1 ?? "Không có địa chỉ mặc định được lưu.";
+}
+
+<h1>Chi tiết Hóa đơn - Mã: @Model.MaHd</h1>
+
+<hr />
+
+<h3 class="text-warning">Thông tin chung</h3>
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.Ngay)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.Ngay)
+        </dd>
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TongTien)
+        </dt>
+        <dd class="col-sm-9">
+            <span class="font-weight-bold text-danger">@string.Format("{0:N0} VNĐ", Model.TongTien)</span>
+        </dd>
+        <dt class="col-sm-3">
+            Trạng thái
+        </dt>
+        <dd class="col-sm-9">
+            @{
+                string trangThaiText = Model.TrangThai switch
+                {
+                    -1 => "Đã hủy",
+                    0 => "Chờ xử lý",
+                    1 => "Đang chuẩn bị hàng",
+                    2 => "Đang vận chuyển",
+                    3 => "Hoàn thành",
+                    _ => "Không xác định"
+                };
+            }
+            <strong>@trangThaiText</strong>
+        </dd>
+        <dt class="col-sm-3">
+            Khách hàng
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.MaKhNavigation.Ten) (@Html.DisplayFor(model => model.MaKhNavigation.MaKh))
+        </dd>
+
+       
+        <dt class="col-sm-3">
+            Địa chỉ giao hàng
+        </dt>
+        <dd class="col-sm-9">
+            <span class="text-primary">@diaChiHienThi</span>
+        </dd>
+      
+
+    </dl>
+</div>
+
+
+<h3 class="text-warning">Chi tiết Sản phẩm trong đơn hàng</h3>
+
+@if (Model.Cthoadons != null && Model.Cthoadons.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Mã MH</th>
+                <th>Tên Mặt hàng</th>
+                <th>Số lượng</th>
+                <th>Đơn giá</th>
+                <th>Thành tiền</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Cthoadons)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.MaMh)</td>
+                    <td>@Html.DisplayFor(modelItem => item.MaMhNavigation.Ten)</td>
+                    <td>@Html.DisplayFor(modelItem => item.SoLuong)</td>
+                    <td>@string.Format("{0:N0} VNĐ", item.DonGia)</td>
+                    <td>
+                        <span class="font-weight-bold">@string.Format("{0:N0} VNĐ", item.ThanhTien)</span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="text-info">Không có chi tiết sản phẩm nào cho hóa đơn này.</p>
+}
+
+<div>
+    <a asp-action="Index" class="btn btn-warning">Quay lại danh sách</a>
+</div>

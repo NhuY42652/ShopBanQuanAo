@@ -1,0 +1,64 @@
+﻿@model ShopBanQuanAoOnline.Models.Mathang
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Chi tiết sản phẩm</h1>
+
+<div>
+
+    <hr />
+    <dl class="row">             
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Ten)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Ten)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.GiaBan)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.GiaBan)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.SoLuong)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.SoLuong)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.MoTa)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.MoTa)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.MaDmNavigation)</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.MaDmNavigation.Ten)</dd>
+
+       
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LuotXem)</dt>
+        <dd class="col-sm-10">@(Model.LuotXem ?? 0)</dd>
+
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LuotMua)</dt>
+        <dd class="col-sm-10">@(Model.LuotMua ?? 0)</dd>
+
+        
+        <dt class="col-sm-2">@Html.DisplayNameFor(model => model.HinhAnh)</dt>
+        <dd class="col-sm-10">
+            <img width="300" height="300" src="~/images/@Html.DisplayFor(model => model.HinhAnh)" />
+        </dd>
+
+        <dt class="col-sm-2"></dt> 
+        <dd class="col-sm-10">
+            <div class="mt-3">
+                @if (Model.SoLuong > 0)
+                {
+                    <a asp-controller="Customers" asp-action="AddToCart" asp-route-id="@Model.MaMh" class="btn btn-success btn-lg">
+                        <i class="fa fa-cart-plus"></i> Thêm vào Giỏ hàng
+                    </a>
+                }
+                else
+                {
+                    <span class="text-danger lead">Hết hàng</span>
+                }
+            </div>
+        </dd>
+
+
+    </dl>
+</div>
+
+<div>
+    <a  asp-action="Index">Quay lại danh sách </a>
+</div>

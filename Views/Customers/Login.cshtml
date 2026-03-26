@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<div class="row">
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4">
+        <div class="p-3 shadow">
+            <h3 class="text-center text-info">ĐĂNG NHẬP</h3>
+            <form method="post" asp-action="Login">
+
+                <input class="form-control" type="text" name="email"
+                       placeholder="Email" required><br>
+                <input class="form-control" type="password" name="matkhau"
+                       placeholder="Mật khẩu" required><br>
+
+                <div class="d-grid">
+                    <input class="btn btn-info btn-block" type="submit"
+                           value="Đăng nhập">
+                </div>
+            </form>
+
+            <div class="my-3 text-center">
+                Chưa có tài khoản? <a asp-action="Register">Đăng ký</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4"></div>
+</div>

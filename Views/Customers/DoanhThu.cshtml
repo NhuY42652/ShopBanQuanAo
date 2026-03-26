@@ -1,0 +1,100 @@
+﻿@model List<ShopBanQuanAoOnline.Models.Hoadon>
+
+@using ShopBanQuanAoOnline.Models
+@{
+    ViewData["Title"] = "Báo cáo Doanh thu";    
+    var report = ViewBag.ReportData as DoanhThuReportViewModel;
+}
+@{
+    Layout = "_LayoutAdmin";
+}
+<h1>Báo Cáo Doanh thu</h1>
+<hr />
+
+<form asp-action="DoanhThu" method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-3">
+            <label class="form-label">Từ Ngày</label>
+            <input type="date" name="tuNgay" class="form-control" value="@ViewData["TuNgay"]" />
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Đến Ngày</label>
+            <input type="date" name="denNgay" class="form-control" value="@ViewData["DenNgay"]" />
+        </div>
+        <div class="col-md-3 d-flex align-items-end">
+            <button type="submit" class="btn btn-primary">Xem Báo Cáo</button>
+        </div>
+    </div>
+</form>
+
+<hr />
+
+<div class="card bg-light mb-4">
+    <div class="card-header bg-warning text-white">
+        <h5>Báo cáo Tổng hợp</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <strong>Tổng Doanh Thu (@ViewData["TuNgay"] đến @ViewData["DenNgay"]):</strong>
+            </div>
+            <div class="col-md-6 text-danger lead">
+                <strong>@(report?.TongDoanhThu.ToString("N0") ?? "0") đ</strong>
+            </div>
+        </div>
+        <div class="row mt-2">
+            <div class="col-md-6">
+                <strong>Tổng Số Lượng Sản Phẩm Đã Bán:</strong>
+            </div>
+            <div class="col-md-6">
+                @(report?.TongSoLuong.ToString("N0") ?? "0") sản phẩm
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3>Danh sách Hóa đơn Chi tiết</h3>
+@if (Model != null && Model.Count > 0)
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Mã HĐ</th>
+                <th>Ngày Lập</th>
+                <th>Mã KH</th>
+                <th>Tên Khách hàng</th>
+                <th>Tổng Tiền HĐ</th>
+                <th>Chi tiết Sản phẩm</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var hd in Model)
+            {
+                <tr>
+                    <td>@hd.MaHd</td>
+
+                    <td>@(hd.Ngay?.ToString("dd/MM/yyyy") ?? "")</td>
+
+                    <td>@hd.MaKh</td>
+
+                    <td>@(hd.MaKhNavigation?.Ten ?? "Khách vãng lai")</td>
+
+                    <td>@((hd.TongTien ?? 0).ToString("N0")) đ</td>
+
+                    <td>
+                        @foreach (var ct in hd.Cthoadons)
+                        {
+                            <p class="mb-0">
+                                @ct.MaMhNavigation?.Ten (SL: @ct.SoLuong) - @((ct.ThanhTien ?? 0).ToString("N0")) đ
+                            </p>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="alert alert-warning">Không có hóa đơn nào trong khoảng thời gian đã chọn.</p>
+}

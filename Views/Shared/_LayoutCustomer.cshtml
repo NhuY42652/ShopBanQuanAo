@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<title>Mika hop</title>
+	<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+	<script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+	<link href="~/css/styles.css" rel="stylesheet" />
+	<style>
+		.box {
+		transition: all 0.3s ease;
+		}
+
+		.box:hover {
+		transform: scale(1.1);
+		}		
+		.main-content-bg {
+		
+
+		background-image: url('/images/carousel/bg3.jpg');
+		background-size: cover; 
+		background-attachment: fixed;
+		background-position: center;
+		
+		padding-top: 50px;
+		padding-bottom: 50px;
+		}
+		
+		header.masthead {
+			padding-top: 12rem;
+			padding-bottom: 12rem;			
+			background-image: url('/assets/img/h3.jpg');
+			background-repeat: no-repeat;
+			background-attachment: scroll;
+			background-position: center center;
+			background-size: cover;
+		}
+	</style>
+</head>
+<body class="bg-light" id="top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-info sticky-top">
+		<div class="container-fluid px-4 px-lg-5">
+			<a class="navbar-brand" href="#!"><i class="bi bi-shop"></i> Mika Shop </a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+
+					<li class="nav-item">
+						<a class="nav-link text-light" asp-controller="Customers" asp-action="Index">Trang Chủ</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" asp-controller="CustomersKhuyenMai" asp-action="Index">Khuyến mãi</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" asp-controller="CustomersSuKien" asp-action="Index">Sự Kiện</a>
+					</li>
+					
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-light" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Danh mục Sản Phẩm</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							@foreach (var i in (List<Danhmuc>)ViewBag.danhmuc)
+							{
+								<li><a class="dropdown-item" asp-action="List" asp-route-id="@i.MaDm">@i.Ten</a></li>
+							}
+						</ul>
+
+					</li>
+					<li class="nav-item text-light">
+						<a class="nav-link text-light" asp-controller="Customers" asp-action="About">About MIKA</a>
+					</li>
+					
+				</ul>
+				<div class="d-flex">
+					@if (ViewBag.khachhang != null)
+					{
+						<a asp-action="CustomerInfo" class="btn btn-outline-light"> Xin chào @ViewBag.khachhang.Ten</a>
+					}
+					else
+					{
+					<a asp-controller="Customers" asp-action="Login" class="btn btn-outline-light">
+						<i class="bi bi-person me-1"></i>
+						Đăng nhập
+					</a>
+					}&nbsp;&nbsp;&nbsp;&nbsp;
+					<a asp-controller="Customers" asp-action="ViewCart" class="btn btn-outline-light">
+						<i class="bi bi-bag me-1"></i>
+						Giỏ hàng
+						<span class="badge bg-danger text-white ms-1 rounded-pill">@ViewData["solg"]</span>
+					</a>
+					<div>
+						<form class="d-flex" asp-action="Tim">
+							<input type="text" name="tukhoa" class="form-control" placeholder="Nhập từ khóa" value="@ViewBag.tukhoa" />
+							<input type="submit" value="Tìm" class="btn btn-outline-warning" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<header class="masthead">
+		<div class="container-fluid">
+			<div class="masthead-heading text-uppercase ">Welcome to our shop</div>
+		</div>
+	</header>
+	<section class="main-content-bg">
+		<div class="container px-4 px-lg-5 mt-5">
+			@RenderBody()
+		</div>
+		<div>
+			@{
+				int currentPage = ViewBag.CurrentPage ?? 1;
+				int totalPages = ViewBag.TotalPages ?? 1;
+			}
+			<ul class="pagination justify-content-center">
+			
+				<li class="page-item @(currentPage <= 1 ? "disabled" : "")">
+					<a class="page-link" asp-controller="Customers" asp-action="Index" asp-route-page="@(currentPage - 1)">
+						<i class="bi bi-caret-left-fill"></i>
+					</a>
+				</li>
+								
+				@for (int i = 1; i <= totalPages; i++)
+				{
+					<li class="page-item @(i == currentPage ? "active" : "")">
+						<a class="page-link" asp-controller="Customers" asp-action="Index" asp-route-page="@i">@i</a>
+					</li>
+				}
+
+				<li class="page-item @(currentPage >= totalPages ? "disabled" : "")">
+					<a class="page-link" asp-controller="Customers" asp-action="Index" asp-route-page="@(currentPage + 1)">
+						<i class="bi bi-caret-right-fill"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+		</section>
+	<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+		</div>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="~/images/carousel/f1.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+			</div>
+			<div class="carousel-item">
+				<img src="~/images/carousel/f2.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+			</div>
+			<div class="carousel-item">
+				<img src="~/images/carousel/f3.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;">
+			</div>
+		</div>
+
+		<button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon"></span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+			<span class="carousel-control-next-icon"></span>
+		</button>
+	</div>
+	<section class="page-section bg-light" id="store-info">
+		<div class="text-center">
+			<a href="#top" class="text-decoration-none text-primary">
+				<i class="bi bi-chevron-double-up" style="font-size: 32px;"></i>
+			</a>
+		</div>
+		<div class="container">
+			<div class="text-center">
+				<h2 class="section-heading text-uppercase">Thông Tin Cửa Hàng</h2>
+				<h3 class="section-subheading text-muted">Liên hệ với chúng tôi</h3>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="my-3">Địa Chỉ</h4>
+					<p class="text-warning">168 Nguyễn Văn Cừ Nối Dài, An Bình, Ninh Kiều, Cần Thơ, Việt Nam</p>
+				</div>
+
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="my-3">Hotline</h4>
+					<p>
+						<a href="https://zalo.me/0939257838" class="btn btn-sm btn-outline-success mb-2"><i class="bi bi-chat-fill me-1"></i> Admin Zalo</a><br />
+						<a href="tel:0939257838" class="btn btn-sm btn-outline-primary"><i class="bi bi-telephone-fill me-1"></i> 0939257838</a>
+					</p>
+					
+				</div>
+
+				<div class="col-md-4">
+					<span class="fa-stack fa-4x">
+						<i class="fas fa-circle fa-stack-2x text-primary"></i>
+						<i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+					</span>
+					<h4 class="my-3">Email</h4>
+					<p class="text-warning">Mikafashionshop@gmail.com</p>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer py-4 bg-info">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-12 text-center">
+					Website Shop Quan Ao MIKA 2026
+				</div>
+			</div>
+
+
+		</div>
+		
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="js/scripts.js"></script>
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,67 @@
+﻿@model List<ShopBanQuanAoOnline.Models.CartItem>
+<br />
+<h3>Giỏ hàng của bạn</h3>
+
+@if (Model.Count > 0)
+{
+    int stt = 1;         
+    int thanhtien = 0;     
+    int tongtien = 0;       
+
+    <table class="table">
+        <tr>
+            <th>STT</th>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Thành tiền</th>
+            <th></th>
+        </tr>
+        @foreach (var i in Model)
+        {            
+            thanhtien = (i.MatHang.GiaBan ?? 0) * i.SoLuong;
+
+            tongtien += thanhtien;
+            <tr class="align-middle">
+                <td>@(stt++)</td>
+                <td>
+                    <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
+                    @(i.MatHang.Ten)
+                </td>
+                <td>@(i.MatHang.GiaBan?.ToString("N0")) đ</td>
+                <td>
+                    <form asp-action="UpdateItem" method="post">
+                        <div class="row">
+                            <div class="col">
+                                <input name="id" type="hidden" asp-for="@(i.MatHang.MaMh)" />
+                                <input name="quantity" type="number" asp-for="@(i.SoLuong)" class="form-control" />
+                            </div>
+                            <div class="col">
+                                <input class="btn btn-warning" type="submit" value="Cập nhật" />
+                            </div>
+                        </div>
+                    </form>
+                </td>
+                <td>@(thanhtien.ToString("N0")) đ</td>
+                <td><a asp-action="RemoveItem" asp-route-id="@i.MatHang.MaMh" class="text-danger">Xóa</a></td>
+            </tr>
+        }
+        <tr>
+            <td colspan="4" class="text-end">Tổng Tiền</td>
+            <td colspan="2"><strong class="text-danger">@(tongtien.ToString("N0")) đ</strong></td>
+        </tr>
+    </table>
+    <div class="text-end">
+        <a class="btn btn-secondary me-2" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
+
+        <a class="btn btn-info" asp-action="CheckOut">Thanh toán</a>
+    </div>
+}
+else
+{
+    <p class="alert alert-danger">Giỏ hàng rỗng!</p>
+
+    <div class="text-center">
+        <a class="btn btn-secondary" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
+    </div>
+}

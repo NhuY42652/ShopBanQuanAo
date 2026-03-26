@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.Danhmuc>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Quản Lý Danh Mục</h1>
+
+<p class="mb-3">
+    <a asp-action="Create" class="btn btn-warning">
+        <i class="fas fa-plus"></i> Thêm Danh mục mới
+    </a>
+</p>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDm)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th style="min-width: 180px;">Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaDm)
+                </td>
+                <td>
+                    <strong>@Html.DisplayFor(modelItem => item.Ten)</strong>
+                </td>
+                <td>                 
+                    <a asp-action="Edit" asp-route-id="@item.MaDm" class="btn btn-sm btn-success" title="Chỉnh sửa">
+                        <i class="fas fa-edit"></i> Sửa
+                    </a>               
+                    <a asp-action="Details" asp-route-id="@item.MaDm" class="btn btn-sm btn-info" title="Chi tiết">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </a>
+                    <a asp-action="Delete" asp-route-id="@item.MaDm" class="btn btn-sm btn-danger" title="Xóa">
+                        <i class="fas fa-trash-alt"></i> Xóa
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

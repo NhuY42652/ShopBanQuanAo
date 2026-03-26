@@ -1,0 +1,51 @@
+﻿@page
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Đăng nhập";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+
+            <h2 class="text-center mb-4">Đăng nhập quản trị</h2>
+
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Email" class="form-control" placeholder="Email">
+                    <label asp-for="Input.Email">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input asp-for="Input.Password" class="form-control" placeholder="Password">
+                    <label asp-for="Input.Password">Mật khẩu</label>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="Input.RememberMe" class="form-check-input">
+                    <label asp-for="Input.RememberMe" class="form-check-label">
+                        Ghi nhớ đăng nhập
+                    </label>
+                </div>
+
+                <button type="submit" class="w-100 btn btn-primary">
+                    Đăng nhập
+                </button>
+
+                <div class="text-center mt-3">
+                    <a asp-page="./Register">Chưa có tài khoản? Đăng ký</a>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

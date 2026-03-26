@@ -1,0 +1,67 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.Cthoadon>
+
+@{
+    ViewData["Title"] = "Index";
+    System.Globalization.CultureInfo culture = new System.Globalization.CultureInfo("vi-VN");
+}
+
+<h1>Quản Lý Chi Tiết Hóa Đơn</h1>
+
+<p class="mb-3">
+    
+</p>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped table-hover table-sm text-center">
+        <thead class="table-dark">
+            <tr>
+                <th class="align-middle" style="white-space: nowrap;">@Html.DisplayNameFor(model => model.MaCthd)</th>
+                <th class="align-middle" style="white-space: nowrap;">Tên Khách Hàng</th>
+                <th class="align-middle" style="white-space: nowrap;">Mã HĐ</th>
+                <th class="align-middle" style="white-space: nowrap;">Tên Mặt Hàng</th>
+                <th class="align-middle" style="white-space: nowrap;">@Html.DisplayNameFor(model => model.DonGia)</th>
+                <th class="align-middle" style="white-space: nowrap;">@Html.DisplayNameFor(model => model.SoLuong)</th>
+                <th class="align-middle" style="white-space: nowrap;">@Html.DisplayNameFor(model => model.ThanhTien)</th>
+                <th class="align-middle" style="white-space: nowrap;">Thao tác</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="align-middle">@Html.DisplayFor(modelItem => item.MaCthd)</td>
+                    <td class="text-start align-middle">
+                        <strong>@Html.DisplayFor(modelItem => item.MaHdNavigation.MaKhNavigation.Ten)</strong>
+                    </td>
+                    <td class="align-middle">
+                        <a asp-controller="Hoadons" asp-action="Details" asp-route-id="@item.MaHd" class="text-info">#@Html.DisplayFor(modelItem => item.MaHd)</a>
+                    </td>
+                    <td class="text-start align-middle">@Html.DisplayFor(modelItem => item.MaMhNavigation.Ten)</td>
+                    <td class="align-middle">
+                        @string.Format(culture, "{0:N0}", item.DonGia)
+                    </td>
+                    <td class="align-middle">
+                        @Html.DisplayFor(modelItem => item.SoLuong)
+                    </td>
+                    <td class="align-middle text-danger font-weight-bold">
+                        @string.Format(culture, "{0:N0}", item.ThanhTien)
+                    </td>
+                    <td class="align-middle" style="min-width: 150px;">
+                      
+                        @* <a asp-action="Edit" asp-route-id="@item.MaCthd" class="btn btn-sm btn-success mb-1" title="Chỉnh sửa"> *@
+                        @*     <i class="fas fa-edit"></i> Sửa *@
+                        @* </a> *@
+                       
+                        <a asp-action="Details" asp-route-id="@item.MaCthd" class="btn btn-sm btn-info mb-1" title="Chi tiết">
+                            <i class="fas fa-info-circle"></i> Chi tiết
+                        </a>
+                       
+                        <a asp-action="Delete" asp-route-id="@item.MaCthd" class="btn btn-sm btn-danger" title="Xóa">
+                            <i class="fas fa-trash-alt"></i> Xóa
+                        </a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,113 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.Hoadon>
+@{
+    ViewData["Title"] = "Hồ sơ khách hàng";
+}
+
+@if (ViewBag.khachhang != null)
+{
+    <h3>Chào @ViewBag.khachhang.Ten!</h3>
+    <p><a asp-action="Signout">Đăng xuất</a></p>
+
+    <h2>Danh sách Đơn Hàng Của Bạn</h2>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Mã HĐ</th>
+                <th>Ngày</th>
+                <th>Chi tiết hóa đơn</th>
+                <th>Tổng tiền</th>
+                <th>Trạng thái & Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var i in Model) 
+            {
+                <tr>
+                    <td>@i.MaHd</td>
+                    <td>@i.Ngay</td>
+                    <td>
+                        <a data-bs-toggle="collapse" data-bs-target="#demo_@i.MaHd">Chi tiết đơn</a>
+                        <div id="demo_@i.MaHd" class="collapse">
+                            <table class="table table-bordered table-sm mt-2">
+                                <thead>
+                                    <tr>
+                                        <th>Mặt hàng</th>
+                                        <th>Đơn giá</th>
+                                        <th>Số lượng</th>
+                                        <th>Thành tiền</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var c in i.Cthoadons) 
+                                    {
+                                        <tr>
+                                            <td>
+                                                <img src="~/images/@c.MaMhNavigation.HinhAnh" width="50" height="50" style="object-fit: cover; margin-right: 5px;" />
+                                                @c.MaMhNavigation.Ten
+                                            </td>
+                                            <td>@c.DonGia?.ToString("N0") VNĐ</td>
+                                            <td>@c.SoLuong</td>
+                                            <td>@c.ThanhTien?.ToString("N0") VNĐ</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
+                    <td>@i.TongTien?.ToString("N0") VNĐ</td>
+                   
+                    <td>
+                        @switch (i.TrangThai)
+                        {
+                            case 0:
+                                <span class="badge bg-warning text-dark">Chờ xử lý</span>
+                                
+                                <form asp-controller="Hoadons" asp-action="HuyDon" method="post" class="d-inline mt-1">
+                                    <input type="hidden" name="id" value="@i.MaHd" />
+                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-danger"
+                                            onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng #@i.MaHd này không? Lưu ý, chỉ đơn hàng đang chờ xử lý mới có thể hủy.');">
+                                        <i class="fa fa-times"></i> Hủy Đơn
+                                    </button>
+                                </form>
+                                break;
+                            case 1:
+                                <span class="badge bg-info">Đang giao hàng</span>
+                                break;
+                            case 2:
+                                <span class="badge bg-primary">Đã giao hàng (Chờ xác nhận)</span>
+                                
+                                <form asp-controller="Hoadons" asp-action="CapNhatTrangThai" method="post" class="d-inline mt-1">
+                                    <input type="hidden" name="id" value="@i.MaHd" />
+                                    <input type="hidden" name="trangThaiMoi" value="3" />
+                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                    @Html.AntiForgeryToken()
+                                    <button type="submit" class="btn btn-sm btn-success">
+                                        <i class="fa fa-check"></i> Đã nhận được hàng
+                                    </button>
+                                </form>
+                                break;
+                            case 3:
+                                <span class="badge bg-success">Đã nhận hàng (Hoàn thành)</span>
+                                break;
+                            case -1: 
+                                <span class="badge bg-danger">Đã Hủy</span>
+                                break;
+                            default:
+                                <span>Trạng thái không xác định</span>
+                                break;
+                        }
+                    </td>
+                  
+                </tr>
+            }
+        </tbody>
+    </table>
+
+}
+else
+{
+    <p>Vui lòng <a asp-action="Login">Đăng nhập</a></p>
+}

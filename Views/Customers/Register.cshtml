@@ -1,0 +1,59 @@
+﻿@model ShopBanQuanAoOnline.Models.Khachhang
+
+@{
+    ViewData["Title"] = "Đăng ký tài khoản";
+    Layout = "~/Views/Shared/_LayoutCustomer.cshtml";
+}
+
+<div class="row">
+    <div class="col-sm-4"></div>
+
+    <div class="col-sm-4">
+        <div class="p-3 shadow">
+            <h3 class="text-center text-info">ĐĂNG KÝ TÀI KHOẢN</h3>
+
+            <form method="post" asp-action="Register" novalidate>
+
+                <div class="my-3">
+                    <label>Email</label>
+                    <input asp-for="Email" class="form-control" placeholder="Nhập email" />
+                    <span asp-validation-for="Email" class="text-danger small d-block"></span>
+                </div>
+
+                <div class="my-3">
+                    <label>Mật khẩu</label>
+                    <input asp-for="MatKhau" type="password" class="form-control" placeholder="Mật khẩu" />
+                    <span asp-validation-for="MatKhau" class="text-danger small d-block"></span>
+                </div>
+
+                <div class="my-3">
+                    <label>Họ tên</label>
+                    <input asp-for="Ten" class="form-control" placeholder="Nhập họ tên" />
+                    <span asp-validation-for="Ten" class="text-danger small d-block"></span>
+                </div>
+
+                <div class="my-3">
+                    <label>Số điện thoại</label>
+                    <input asp-for="DienThoai" class="form-control" placeholder="Nhập số điện thoại" />
+                    <span asp-validation-for="DienThoai" class="text-danger small d-block"></span>
+                </div>
+
+                <div class="my-3">
+                    <label>Địa chỉ (Ví dụ: Số nhà, tên đường)</label>
+                    <input class="form-control" name="diachidangky" placeholder="Nhập địa chỉ mặc định" />
+                </div>
+
+                <div class="d-grid mt-3">
+                    <button type="submit" class="btn btn-info btn-block">Đăng ký</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="col-sm-4"></div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

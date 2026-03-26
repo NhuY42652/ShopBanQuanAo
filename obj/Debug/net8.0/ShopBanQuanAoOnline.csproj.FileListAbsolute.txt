@@ -1,0 +1,1392 @@
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.Development.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.runtime.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.endpoints.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.exe
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.deps.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.runtimeconfig.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Identity.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Humanizer.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.ClientModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.CodeDom.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Memory.Data.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.AssemblyReference.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfoInputs.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.CoreCompileInputs.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\bundle\ShopBanQuanAoOnline.styles.css
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\projectbundle\ShopBanQuanAoOnline.bundle.scp.css
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.development.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.build.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.pack.json
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\refint\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
+D:\CNW ASP.NET\ĐỒ ÁN ASP ShopBanQuanAoOnline\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.Development.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.endpoints.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.runtime.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.exe
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.deps.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.runtimeconfig.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Identity.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Humanizer.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.ClientModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.CodeDom.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Memory.Data.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.AssemblyReference.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfoInputs.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.CoreCompileInputs.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cs
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\bundle\ShopBanQuanAoOnline.styles.css
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\projectbundle\ShopBanQuanAoOnline.bundle.scp.css
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.development.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.build.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.pack.json
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\refint\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
+D:\CNW ASP.NET\ĐỒ ÁN MỚI\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.Development.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.runtime.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.endpoints.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.exe
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.deps.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.runtimeconfig.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Core.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Identity.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Humanizer.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Common.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.ClientModel.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.CodeDom.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Memory.Data.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.AssemblyReference.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.GeneratedMSBuildEditorConfig.editorconfig
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfoInputs.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfo.cs
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.CoreCompileInputs.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cs
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\bundle\ShopBanQuanAoOnline.styles.css
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\projectbundle\ShopBanQuanAoOnline.bundle.scp.css
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.development.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.ShopBanQuanAoOnline.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.build.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ShopBanQuanAoOnline.props
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.pack.json
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\refint\ShopBanQuanAoOnline.dll
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
+D:\CNW ASP.NET\BẢN SAU PHỤ\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.Development.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.runtime.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.endpoints.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.exe
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.deps.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.runtimeconfig.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Core.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Identity.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Humanizer.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Common.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.ClientModel.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.CodeDom.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Memory.Data.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.AssemblyReference.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.GeneratedMSBuildEditorConfig.editorconfig
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfoInputs.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfo.cs
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.CoreCompileInputs.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cs
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\bundle\ShopBanQuanAoOnline.styles.css
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\projectbundle\ShopBanQuanAoOnline.bundle.scp.css
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.development.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\refint\ShopBanQuanAoOnline.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.AssemblyReference.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.GeneratedMSBuildEditorConfig.editorconfig
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfoInputs.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.AssemblyInfo.cs
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.csproj.CoreCompileInputs.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cs
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.MvcApplicationPartsAssemblyInfo.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.RazorAssemblyInfo.cs
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\refint\ShopBanQuanAoOnline.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.Development.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\appsettings.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.runtime.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.staticwebassets.endpoints.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.exe
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.deps.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.runtimeconfig.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ShopBanQuanAoOnline.pdb
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Core.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Azure.Identity.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Humanizer.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Build.Framework.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Elfie.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Features.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DiaSymReader.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.NET.StringTools.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\dotnet-aspnet-codegenerator-design.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Common.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Configuration.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.LibraryModel.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Packaging.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.ProjectModel.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Protocol.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\NuGet.Versioning.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.core.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\SQLitePCLRaw.provider.e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.ClientModel.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.CodeDom.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Reflection.MetadataLoadContext.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\af\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ar\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\az\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bg\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\bn-BD\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\da\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\el\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fa\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fi-FI\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr-BE\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\he\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hr\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hu\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\hy\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\id\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\is\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko-KR\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ku\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\lv\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ms-MY\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\mt\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nb-NO\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\nl\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ro\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sk\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sl\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sr-Latn\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\sv\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\th-TH\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uk\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\vi\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-CN\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Humanizer.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-armel\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-mips64\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-s390x\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-x64\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\linux-x86\native\libe_sqlite3.so
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm\native\e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\bundle\ShopBanQuanAoOnline.styles.css
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\scopedcss\projectbundle\ShopBanQuanAoOnline.bundle.scp.css
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.development.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll

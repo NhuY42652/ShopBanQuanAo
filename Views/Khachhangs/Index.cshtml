@@ -1,0 +1,63 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.Khachhang>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Quản Lý Khách Hàng</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-warning">Thêm Khách hàng mới</a>
+</p>
+
+<table class="table table-striped table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Ten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MatKhau)
+            </th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DienThoai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    ********
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.MaKh" class="btn btn-success btn-sm">
+                        <i class="fas fa-edit"></i> Sửa
+                    </a>
+
+                    <a asp-action="Details" asp-route-id="@item.MaKh" class="btn btn-info btn-sm">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </a>
+
+                    <a asp-action="Delete" asp-route-id="@item.MaKh" class="btn btn-danger btn-sm">
+                        <i class="fas fa-trash-alt"></i> Xóa
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

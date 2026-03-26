@@ -1,0 +1,83 @@
+﻿@model ShopBanQuanAoOnline.Models.KhuyenMai
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 class="detail-header">Chi Tiết Khuyến Mãi</h1>
+
+<div class="detail-card">
+    <dl class="row">
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TenKhuyenMai)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @Html.DisplayFor(model => model.TenKhuyenMai)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.HinhThuc)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @Html.DisplayFor(model => model.HinhThuc)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.GiaTri)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @{
+                if (Model.HinhThuc == "Phần trăm")
+                {
+                    <span>@String.Format("{0:N0}%", Model.GiaTri)</span>
+                }
+                else if (Model.HinhThuc == "Giá trị cố định")
+                {
+                    <span>@String.Format("{0:N0} VNĐ", Model.GiaTri)</span>
+                }
+                else
+                {
+                    @Html.DisplayFor(model => model.GiaTri)
+                }
+            }
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NgayBatDau)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @Model.NgayBatDau.ToString("dd/MM/yyyy")
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.NgayKetThuc)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @Model.NgayKetThuc.ToString("dd/MM/yyyy")
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+        <dd class="col-sm-9 detail-value">
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+        <dd class="col-sm-9">
+            <span class="status-badge @(Model.TrangThai == true ? "status-active" : "status-inactive")">
+                @(Model.TrangThai == true ? "Đang Hoạt Động" : "Không Hoạt Động")
+            </span>
+        </dd>
+
+    </dl>
+</div>
+
+<hr />
+
+<div>
+    <a asp-action="Index" class="btn btn-secondary">Quay Lại Danh Sách</a>
+</div>
