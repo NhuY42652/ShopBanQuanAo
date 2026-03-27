@@ -21,6 +21,7 @@ namespace ShopBanQuanAoOnline.Controllers
         private readonly IPaymentGatewayClient _paymentGatewayClient;
         private readonly IShippingProviderClient _shippingProviderClient;
         private readonly ISmsGatewayClient _smsGatewayClient;
+        private readonly IConfiguration _configuration;
 
         public CustomersController(
             ApplicationDbContext context,
@@ -28,7 +29,8 @@ namespace ShopBanQuanAoOnline.Controllers
             IRecommendationService recommendationService,
             IPaymentGatewayClient paymentGatewayClient,
             IShippingProviderClient shippingProviderClient,
-            ISmsGatewayClient smsGatewayClient)
+            ISmsGatewayClient smsGatewayClient,
+            IConfiguration configuration)
         {
             _context = context;
             _passwordHasher = passwordHasher;
@@ -36,6 +38,7 @@ namespace ShopBanQuanAoOnline.Controllers
             _paymentGatewayClient = paymentGatewayClient;
             _shippingProviderClient = shippingProviderClient;
             _smsGatewayClient = smsGatewayClient;
+            _configuration = configuration;
         }
 
         void GetData()
@@ -281,7 +284,16 @@ namespace ShopBanQuanAoOnline.Controllers
             {
                 cart.Add(new CartItem()
                 {
-                    MatHang = mathang,
+                    // Chỉ lưu thông tin cần thiết để tránh vòng lặp tham chiếu khi serialize session cart
+                    MatHang = new Mathang
+                    {
+                        MaMh = mathang.MaMh,
+                        Ten = mathang.Ten,
+                        GiaBan = mathang.GiaBan,
+                        HinhAnh = mathang.HinhAnh,
+                        SoLuong = mathang.SoLuong
+                    },
+
                     ProductVariantId = selectedVariant?.Id,
                     VariantLabel = selectedVariant == null ? null : $"{selectedVariant.Size} / {selectedVariant.Color}",
                     SoLuong = 1
@@ -440,6 +452,8 @@ namespace ShopBanQuanAoOnline.Controllers
             var shipmentCode = await _shippingProviderClient.CreateShipmentAsync(hd, diachi);
 
             var paymentUrl = string.Empty;
+            var bankQrUrl = string.Empty;
+            var transferContent = $"DH{hd.MaHd}";
             if (paymentMethod.Equals("VNPAY", StringComparison.OrdinalIgnoreCase))
             {
                 paymentUrl = await _paymentGatewayClient.CreatePaymentUrlAsync(
@@ -454,6 +468,29 @@ namespace ShopBanQuanAoOnline.Controllers
                     Amount = tongtien,
                     Status = "Pending",
                     TxnRef = $"VNPAY-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
+                };
+                _context.PaymentTransactions.Add(paymentTransaction);
+                await _context.SaveChangesAsync();
+            }
+            else if (paymentMethod.Equals("BANK_QR", StringComparison.OrdinalIgnoreCase))
+            {
+                var bankBin = _configuration["ExternalServices:BankQr:BankBin"] ?? "970422";
+                var accountNumber = _configuration["ExternalServices:BankQr:AccountNumber"] ?? "0000000000";
+                var accountName = _configuration["ExternalServices:BankQr:AccountName"] ?? "CHU TAI KHOAN";
+                var template = _configuration["ExternalServices:BankQr:Template"] ?? "compact2";
+
+                bankQrUrl = $"https://img.vietqr.io/image/{bankBin}-{accountNumber}-{template}.png" +
+                            $"?amount={tongtien}" +
+                            $"&addInfo={Uri.EscapeDataString(transferContent)}" +
+                            $"&accountName={Uri.EscapeDataString(accountName)}";
+
+                var paymentTransaction = new PaymentTransaction
+                {
+                    OrderId = hd.MaHd,
+                    Provider = "BANK_QR",
+                    Amount = tongtien,
+                    Status = "Pending",
+                    TxnRef = $"BANKQR-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
                 };
                 _context.PaymentTransactions.Add(paymentTransaction);
                 await _context.SaveChangesAsync();
@@ -486,6 +523,14 @@ namespace ShopBanQuanAoOnline.Controllers
             if (!string.IsNullOrEmpty(paymentUrl))
             {
                 TempData["PaymentUrl"] = paymentUrl;
+            }
+            if (!string.IsNullOrEmpty(bankQrUrl))
+            {
+                TempData["BankQrUrl"] = bankQrUrl;
+                TempData["TransferContent"] = transferContent;
+                TempData["BankAccount"] = _configuration["ExternalServices:BankQr:AccountNumber"] ?? "0000000000";
+                TempData["BankName"] = _configuration["ExternalServices:BankQr:BankName"] ?? "Ngân hàng của bạn";
+                TempData["AccountName"] = _configuration["ExternalServices:BankQr:AccountName"] ?? "CHU TAI KHOAN";
             }
             return View(hd);
         }
