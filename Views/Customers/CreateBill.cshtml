@@ -6,18 +6,6 @@
 <h3 class="text-success">
 <p>Đơn hàng mã số @Model.MaHd trị giá @(Model.TongTien)đ đã được hệ thống ghi nhận. Chúng tôi sẽ sớm liên hệ bạn để xác nhận...</p>
 </h3>
-@if (TempData["ShippingMethodText"] != null)
-{
-    <p><strong>Phương thức vận chuyển:</strong> @TempData["ShippingMethodText"]</p>
-}
-@if (TempData["PaymentUrl"] != null)
-{
-    <p class="mt-3">
-        <a class="btn btn-warning" href="@TempData["PaymentUrl"]" target="_blank">
-            Thanh toán ngay với VNPay
-        </a>
-    </p>
-}
 
 @if (TempData["BankQrUrl"] != null)
 {

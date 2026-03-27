@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Newtonsoft.Json;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
@@ -17,27 +16,21 @@ namespace ShopBanQuanAoOnline.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IPasswordHasher<Khachhang> _passwordHasher;
-        private readonly IRecommendationService _recommendationService;
         private readonly IPaymentGatewayClient _paymentGatewayClient;
         private readonly IShippingProviderClient _shippingProviderClient;
-        private readonly ISmsGatewayClient _smsGatewayClient;
         private readonly IConfiguration _configuration;
 
         public CustomersController(
             ApplicationDbContext context,
             IPasswordHasher<Khachhang> passwordHasher,
-            IRecommendationService recommendationService,
             IPaymentGatewayClient paymentGatewayClient,
             IShippingProviderClient shippingProviderClient,
-            ISmsGatewayClient smsGatewayClient,
             IConfiguration configuration)
         {
             _context = context;
             _passwordHasher = passwordHasher;
-            _recommendationService = recommendationService;
             _paymentGatewayClient = paymentGatewayClient;
             _shippingProviderClient = shippingProviderClient;
-            _smsGatewayClient = smsGatewayClient;
             _configuration = configuration;
         }
 
@@ -175,15 +168,28 @@ namespace ShopBanQuanAoOnline.Controllers
                 return Unauthorized();
             }
 
-            var recommendations = await _recommendationService.GetRecommendedProductsAsync(customer.MaKh, take);
-            return Json(recommendations.Select(x => new
-            {
-                x.MaMh,
-                x.Ten,
-                x.GiaBan,
-                x.HinhAnh,
-                x.MaDm
-            }));
+            var purchasedProductIds = await _context.Hoadons
+                .Where(h => h.MaKh == customer.MaKh)
+                .SelectMany(h => h.Cthoadons.Select(ct => ct.MaMh))
+                .Distinct()
+                .ToListAsync();
+
+            var recommendations = await _context.Mathangs
+                .Where(m => !purchasedProductIds.Contains(m.MaMh))
+                .OrderByDescending(m => m.LuotMua ?? 0)
+                .ThenByDescending(m => m.LuotXem ?? 0)
+                .Take(take)
+                .Select(x => new
+                {
+                    x.MaMh,
+                    x.Ten,
+                    x.GiaBan,
+                    x.HinhAnh,
+                    x.MaDm
+                })
+                .ToListAsync();
+
+            return Json(recommendations);
         }
 
         public async Task<IActionResult> DoanhThu(DateTime? tuNgay, DateTime? denNgay)
@@ -520,7 +526,6 @@ namespace ShopBanQuanAoOnline.Controllers
 
             ClearCart();
             GetData();
-            await _smsGatewayClient.SendAsync(dienthoai, $"Don hang #{hd.MaHd} da duoc tao. Ma van don: {shipmentCode}");
 
             TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý. Vận chuyển: {shippingMethodText}. Mã vận đơn: {shipmentCode}";
             TempData["ShippingMethodText"] = shippingMethodText;

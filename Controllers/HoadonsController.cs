@@ -7,19 +7,15 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
-using ShopBanQuanAoOnline.Services;
 
 namespace ShopBanQuanAoOnline.Controllers
 {
     public class HoadonsController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly INotificationService _notificationService;
-
-        public HoadonsController(ApplicationDbContext context, INotificationService notificationService)
+        public HoadonsController(ApplicationDbContext context)
         {
             _context = context;
-            _notificationService = notificationService;
         }
 
         public async Task<IActionResult> Index()
@@ -195,15 +191,6 @@ namespace ShopBanQuanAoOnline.Controllers
                 _context.Update(hoadon);
                 await _context.SaveChangesAsync();
 
-                var recipient = await _context.Khachhangs
-                    .Where(k => k.MaKh == hoadon.MaKh)
-                    .Select(k => k.Email ?? string.Empty)
-                    .FirstOrDefaultAsync();
-                await _notificationService.NotifyOrderStatusChangedAsync(
-                    hoadon.MaHd,
-                    hoadon.TrangThai?.ToString() ?? "Unknown",
-                    recipient);
-
                 TempData["SuccessMessage"] = $"Cập nhật trạng thái đơn hàng #{id} thành công!";
             }
             catch (DbUpdateConcurrencyException)
@@ -251,12 +238,6 @@ namespace ShopBanQuanAoOnline.Controllers
             {
                 _context.Update(hoadon);
                 await _context.SaveChangesAsync();
-
-                var recipient = await _context.Khachhangs
-                    .Where(k => k.MaKh == hoadon.MaKh)
-                    .Select(k => k.Email ?? string.Empty)
-                    .FirstOrDefaultAsync();
-                await _notificationService.NotifyOrderStatusChangedAsync(hoadon.MaHd, "Canceled", recipient);
 
                 TempData["SuccessMessage"] = $"Hóa đơn #{id} đã được hủy thành công và **số lượng kho đã được hoàn lại**!";
             }

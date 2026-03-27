@@ -19,11 +19,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddSingleton<IPasswordHasher<Khachhang>, PasswordHasher<Khachhang>>();
-builder.Services.AddScoped<IRecommendationService, RecommendationService>();
-builder.Services.AddScoped<INotificationService, NotificationService>();
 builder.Services.AddScoped<IPaymentGatewayClient, VnPayGatewayClient>();
 builder.Services.AddScoped<IShippingProviderClient, GhnShippingClient>();
-builder.Services.AddScoped<ISmsGatewayClient, SmsGatewayClient>();
 
 var app = builder.Build();
 
