@@ -38,6 +38,7 @@
                     <option value="COD">Thanh toán khi nhận hàng (COD)</option>
                     <option value="BANK_QR">Chuyển khoản ngân hàng qua mã QR</option>
                 </select>
+                <input class="form-control" value="Chuyển khoản ngân hàng qua mã QR (BankQR)" readonly />
                 <small class="form-text text-muted">
                     Gợi ý: chọn QR để chuyển khoản nhanh theo đúng số tiền đơn hàng.
                 </small>
@@ -78,7 +79,7 @@
                             @(i.MatHang.Ten)
                         </td>
                         <td>@(i.MatHang.GiaBan?.ToString("n0")) đ</td>
-                        <td>@(i.VariantLabel ?? "Mặc định")</td>
+                        <td>@(i.VariantLabel ?? "-")</td>
                         <td>@(i.SoLuong)</td>
                         <td>@(thanhtien.ToString("n0")) đ</td>
 

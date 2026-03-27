@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
-using ShopBanQuanAoOnline.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,8 +18,6 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddSingleton<IPasswordHasher<Khachhang>, PasswordHasher<Khachhang>>();
-builder.Services.AddScoped<IPaymentGatewayClient, VnPayGatewayClient>();
-builder.Services.AddScoped<IShippingProviderClient, GhnShippingClient>();
 
 var app = builder.Build();
 

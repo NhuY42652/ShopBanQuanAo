@@ -28,18 +28,16 @@
         border-radius: 6px;
     }
 
-    .variant-option.active {
-        border-color: #ee4d2d !important;
-        color: #ee4d2d !important;
-        background-color: #fff6f4;
-    }
+        .variant-option.active {
+            border-color: #ee4d2d !important;
+            color: #ee4d2d !important;
+            background-color: #fff6f4;
+        }
 </style>
 
 <div>
-
     <hr />
-    <dl class="row">             
-
+    <dl class="row">
         <dt class="col-sm-2">@Html.DisplayNameFor(model => model.Ten)</dt>
         <dd class="col-sm-10">@Html.DisplayFor(model => model.Ten)</dd>
 
@@ -55,14 +53,12 @@
         <dt class="col-sm-2">@Html.DisplayNameFor(model => model.MaDmNavigation)</dt>
         <dd class="col-sm-10">@Html.DisplayFor(model => model.MaDmNavigation.Ten)</dd>
 
-       
         <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LuotXem)</dt>
         <dd class="col-sm-10">@(Model.LuotXem ?? 0)</dd>
 
         <dt class="col-sm-2">@Html.DisplayNameFor(model => model.LuotMua)</dt>
         <dd class="col-sm-10">@(Model.LuotMua ?? 0)</dd>
 
-        
         <dt class="col-sm-2">@Html.DisplayNameFor(model => model.HinhAnh)</dt>
         <dd class="col-sm-10">
             <img width="300" height="300" src="~/images/@Html.DisplayFor(model => model.HinhAnh)" />
@@ -73,7 +69,7 @@
             @if (availableVariants.Any())
             {
                 <form asp-controller="Customers" asp-action="AddToCart" method="get" class="row g-3" id="variantForm">
-                    <input type="hidden" name="id" value="@Model.MaMh" />                  
+                    <input type="hidden" name="id" value="@Model.MaMh" />
                     <input type="hidden" id="variantIdInput" name="variantId" />
 
                     <div class="col-12">
@@ -100,7 +96,7 @@
 
                     <div class="col-12">
                         <button type="submit" class="btn btn-success">
-                            <i class="fa fa-cart-plus"></i> Thêm vào giỏ hàng theo biến thể
+                            <i class="fa fa-cart-plus"></i> Thêm vào giỏ hàng
                         </button>
                     </div>
                 </form>
@@ -159,25 +155,8 @@
             }
             else
             {
-                <span class="text-muted">Sản phẩm chưa có biến thể, có thể mua theo tồn kho chung.</span>
+                <span class="text-danger lead">Hết hàng</span>
             }
         </dd>
-
-        <dt class="col-sm-2"></dt> 
-        <dd class="col-sm-10">
-            <div class="mt-3">
-              
-                else
-                {
-                    <span class="text-danger lead">Hết hàng</span>
-                }
-            </div>
-        </dd>
-
-
     </dl>
-</div>
-
-<div>
-    <a  asp-action="Index">Quay lại danh sách </a>
 </div>

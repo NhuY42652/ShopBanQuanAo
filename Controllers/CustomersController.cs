@@ -1,36 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
-using ShopBanQuanAoOnline.Services;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 namespace ShopBanQuanAoOnline.Controllers
 {
     public class CustomersController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IPasswordHasher<Khachhang> _passwordHasher;
-        private readonly IPaymentGatewayClient _paymentGatewayClient;
-        private readonly IShippingProviderClient _shippingProviderClient;
         private readonly IConfiguration _configuration;
 
         public CustomersController(
             ApplicationDbContext context,
             IPasswordHasher<Khachhang> passwordHasher,
-            IPaymentGatewayClient paymentGatewayClient,
-            IShippingProviderClient shippingProviderClient,
             IConfiguration configuration)
         {
             _context = context;
             _passwordHasher = passwordHasher;
-            _paymentGatewayClient = paymentGatewayClient;
-            _shippingProviderClient = shippingProviderClient;
             _configuration = configuration;
         }
 
@@ -248,7 +241,14 @@ namespace ShopBanQuanAoOnline.Controllers
                 return RedirectToAction(nameof(Index));
             }
 
-            if (mathang.SoLuong <= 0)
+            var productHasVariants = await _context.ProductVariants.AnyAsync(v => v.ProductId == id);
+            if (productHasVariants && !variantId.HasValue)
+            {
+                TempData["ErrorMessage"] = "Sản phẩm này có biến thể. Vui lòng chọn màu/size trước khi thêm vào giỏ.";
+                return RedirectToAction(nameof(Details), new { id });
+            }
+
+            if (!productHasVariants && mathang.SoLuong <= 0)
             {
                 TempData["ErrorMessage"] = $"Sản phẩm '{mathang.Ten}' đã hết hàng!";
                 return RedirectToAction(nameof(Index));
@@ -374,7 +374,7 @@ namespace ShopBanQuanAoOnline.Controllers
         }
 
         [HttpPost, ActionName("CreateBill")]
-        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress, string paymentMethod = "COD", string shippingMethod = "FAST")
+        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress)
         {
             var cart = GetCartItems();
             if (!cart.Any())
@@ -450,60 +450,26 @@ namespace ShopBanQuanAoOnline.Controllers
                     }
                 }
             }
-
             hd.TongTien = tongtien;
             _context.Update(hd);
             await _context.SaveChangesAsync();
 
-            var shipmentCode = await _shippingProviderClient.CreateShipmentAsync(hd, diachi);
-            var shippingMethodText = shippingMethod.Equals("STANDARD", StringComparison.OrdinalIgnoreCase)
-               ? "Tiêu chuẩn (2-4 ngày)"
-               : "Nhanh (1-2 ngày)";
-
-            var paymentUrl = string.Empty;
             var bankQrUrl = string.Empty;
             var transferContent = $"DH{hd.MaHd}";
-            if (paymentMethod.Equals("VNPAY", StringComparison.OrdinalIgnoreCase))
-            {
-                paymentUrl = await _paymentGatewayClient.CreatePaymentUrlAsync(
-                    hd,
-                    tongtien,
-                    Url.Action(nameof(CustomerInfo), "Customers", null, Request.Scheme) ?? string.Empty);
-
-                var paymentTransaction = new PaymentTransaction
-                {
-                    OrderId = hd.MaHd,
-                    Provider = "VNPAY",
-                    Amount = tongtien,
-                    Status = "Pending",
-                    TxnRef = $"VNPAY-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
-                };
-                _context.PaymentTransactions.Add(paymentTransaction);
-                await _context.SaveChangesAsync();
-            }
-            else if (paymentMethod.Equals("BANK_QR", StringComparison.OrdinalIgnoreCase))
-            {
-                var bankBin = _configuration["ExternalServices:BankQr:BankBin"] ?? "970422";
                 var accountNumber = _configuration["ExternalServices:BankQr:AccountNumber"] ?? "0000000000";
                 var accountName = _configuration["ExternalServices:BankQr:AccountName"] ?? "CHU TAI KHOAN";
                 var template = _configuration["ExternalServices:BankQr:Template"] ?? "compact2";
 
-                bankQrUrl = $"https://img.vietqr.io/image/{bankBin}-{accountNumber}-{template}.png" +
-                            $"?amount={tongtien}" +
-                            $"&addInfo={Uri.EscapeDataString(transferContent)}" +
-                            $"&accountName={Uri.EscapeDataString(accountName)}";
-
-                var paymentTransaction = new PaymentTransaction
-                {
-                    OrderId = hd.MaHd,
-                    Provider = "BANK_QR",
-                    Amount = tongtien,
-                    Status = "Pending",
-                    TxnRef = $"BANKQR-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
-                };
-                _context.PaymentTransactions.Add(paymentTransaction);
-                await _context.SaveChangesAsync();
-            }
+            var paymentTransaction = new PaymentTransaction
+            {
+                OrderId = hd.MaHd,
+                Provider = "BANK_QR",
+                Amount = tongtien,
+                Status = "Pending",
+                TxnRef = $"BANKQR-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
+            };
+            _context.PaymentTransactions.Add(paymentTransaction);
+            await _context.SaveChangesAsync();
 
             if (saveAddress)
             {
@@ -527,12 +493,7 @@ namespace ShopBanQuanAoOnline.Controllers
             ClearCart();
             GetData();
 
-            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý. Vận chuyển: {shippingMethodText}. Mã vận đơn: {shipmentCode}";
-            TempData["ShippingMethodText"] = shippingMethodText;
-            if (!string.IsNullOrEmpty(paymentUrl))
-            {
-                TempData["PaymentUrl"] = paymentUrl;
-            }
+            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý.";
             if (!string.IsNullOrEmpty(bankQrUrl))
             {
                 TempData["BankQrUrl"] = bankQrUrl;

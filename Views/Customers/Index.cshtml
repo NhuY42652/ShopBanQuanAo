@@ -41,15 +41,8 @@
                     </div>
                 </div>
                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div class="text-center">                      
-                        @if (item.SoLuong > 0)
-                        {
-                            <a class="btn btn-outline-info mt-auto" asp-controller="Customers" asp-action="AddToCart" asp-route-Id="@item.MaMh">Chọn mua</a>
-                        }
-                        else
-                        {
-                            <button class="btn btn-outline-danger mt-auto" disabled>Hết hàng</button>
-                        }
+                    <div class="text-center">
+                        <a class="btn btn-outline-info mt-auto" asp-controller="Customers" asp-action="Details" asp-route-id="@item.MaMh">Chọn sản phẩm</a>
                     </div>
                 </div>
             </div>
