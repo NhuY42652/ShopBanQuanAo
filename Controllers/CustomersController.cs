@@ -146,7 +146,7 @@ namespace ShopBanQuanAoOnline.Controllers
             {
                 return NotFound();
             }
-                       
+
             mathang.LuotXem = (mathang.LuotXem ?? 0) + 1;
             try
             {
@@ -154,7 +154,7 @@ namespace ShopBanQuanAoOnline.Controllers
                 await _context.SaveChangesAsync();
             }
             catch (DbUpdateConcurrencyException)
-            {                
+            {
             }
 
             GetData();
@@ -351,14 +351,14 @@ namespace ShopBanQuanAoOnline.Controllers
         public async Task<IActionResult> CheckOut()
         {
             var khEmail = HttpContext.Session.GetString("khachhang");
-            if (string.IsNullOrEmpty(khEmail)) 
+            if (string.IsNullOrEmpty(khEmail))
             {
                 return RedirectToAction(nameof(Login));
             }
 
             GetData();
             var khachhang = ViewBag.khachhang as Khachhang;
-           
+
             var defaultAddress = await _context.Diachis
                                 .FirstOrDefaultAsync(dc => dc.MaKh == khachhang.MaKh && dc.MacDinh == 1);
 
@@ -368,7 +368,7 @@ namespace ShopBanQuanAoOnline.Controllers
         }
 
         [HttpPost, ActionName("CreateBill")]
-        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress, string paymentMethod = "COD")
+        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress, string paymentMethod = "COD", string shippingMethod = "FAST")
         {
             var cart = GetCartItems();
             if (!cart.Any())
@@ -450,6 +450,9 @@ namespace ShopBanQuanAoOnline.Controllers
             await _context.SaveChangesAsync();
 
             var shipmentCode = await _shippingProviderClient.CreateShipmentAsync(hd, diachi);
+            var shippingMethodText = shippingMethod.Equals("STANDARD", StringComparison.OrdinalIgnoreCase)
+               ? "Tiêu chuẩn (2-4 ngày)"
+               : "Nhanh (1-2 ngày)";
 
             var paymentUrl = string.Empty;
             var bankQrUrl = string.Empty;
@@ -519,7 +522,8 @@ namespace ShopBanQuanAoOnline.Controllers
             GetData();
             await _smsGatewayClient.SendAsync(dienthoai, $"Don hang #{hd.MaHd} da duoc tao. Ma van don: {shipmentCode}");
 
-            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý. Mã vận đơn: {shipmentCode}";
+            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý. Vận chuyển: {shippingMethodText}. Mã vận đơn: {shipmentCode}";
+            TempData["ShippingMethodText"] = shippingMethodText;
             if (!string.IsNullOrEmpty(paymentUrl))
             {
                 TempData["PaymentUrl"] = paymentUrl;
@@ -617,6 +621,6 @@ namespace ShopBanQuanAoOnline.Controllers
             HttpContext.Session.SetString("khachhang", "");
             GetData();
             return RedirectToAction("Index");
-        }     
+        }
     }
 }

@@ -45,6 +45,14 @@
             </div>
 
             <div class="mb-3">
+                <label>Phương thức vận chuyển</label>
+                <select name="shippingMethod" class="form-select">
+                    <option value="FAST">Nhanh (dự kiến 1-2 ngày)</option>
+                    <option value="STANDARD">Tiêu chuẩn (dự kiến 2-4 ngày)</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
                 <input type="submit" class="btn btn-primary" value="Xác nhận đơn hàng" />
             </div>
         </form>
@@ -78,8 +86,8 @@
                             <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
                             @(i.MatHang.Ten)
                         </td>
-                        <td>@(i.VariantLabel ?? "Mặc định")</td>
                         <td>@(i.MatHang.GiaBan?.ToString("n0")) đ</td>
+                        <td>@(i.VariantLabel ?? "Mặc định")</td>
                         <td>@(i.SoLuong)</td>
                         <td>@(thanhtien.ToString("n0")) đ</td>
 

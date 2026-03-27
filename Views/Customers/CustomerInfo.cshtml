@@ -3,12 +3,44 @@
     ViewData["Title"] = "Hồ sơ khách hàng";
 }
 
+<style>
+    .order-tabs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        border-bottom: 1px solid #e5e7eb;
+        margin-bottom: 16px;
+    }
+
+    .order-tab-btn {
+        border: none;
+        background: transparent;
+        padding: 10px 14px;
+        border-bottom: 2px solid transparent;
+        color: #374151;
+        font-weight: 500;
+    }
+
+    .order-tab-btn.active {
+        color: #ee4d2d;
+        border-bottom-color: #ee4d2d;
+    }
+</style>
+
 @if (ViewBag.khachhang != null)
 {
     <h3>Chào @ViewBag.khachhang.Ten!</h3>
     <p><a asp-action="Signout">Đăng xuất</a></p>
 
     <h2>Danh sách Đơn Hàng Của Bạn</h2>
+    <div class="order-tabs">
+        <button type="button" class="order-tab-btn active" data-status="all">Tất cả</button>
+        <button type="button" class="order-tab-btn" data-status="0">Chờ thanh toán</button>
+        <button type="button" class="order-tab-btn" data-status="1">Vận chuyển</button>
+        <button type="button" class="order-tab-btn" data-status="2">Chờ giao hàng</button>
+        <button type="button" class="order-tab-btn" data-status="3">Hoàn thành</button>
+        <button type="button" class="order-tab-btn" data-status="-1">Đã hủy</button>
+    </div>
 
     <table class="table table-hover">
         <thead>
@@ -23,7 +55,7 @@
         <tbody>
             @foreach (var i in Model) 
             {
-                <tr>
+                <tr class="order-row" data-status="@i.TrangThai">
                     <td>@i.MaHd</td>
                     <td>@i.Ngay</td>
                     <td>
@@ -33,8 +65,8 @@
                                 <thead>
                                     <tr>
                                         <th>Mặt hàng</th>
-                                        <th>Đơn giá</th>
                                         <th>Biến thể</th>
+                                        <th>Đơn giá</th>
                                         <th>Số lượng</th>
                                         <th>Thành tiền</th>
                                     </tr>
@@ -63,7 +95,7 @@
                         @switch (i.TrangThai)
                         {
                             case 0:
-                                <span class="badge bg-warning text-dark">Chờ xử lý</span>
+                                <span class="badge bg-warning text-dark">Chờ thanh toán</span>
                                 
                                 <form asp-controller="Hoadons" asp-action="HuyDon" method="post" class="d-inline mt-1">
                                     <input type="hidden" name="id" value="@i.MaHd" />
@@ -76,10 +108,10 @@
                                 </form>
                                 break;
                             case 1:
-                                <span class="badge bg-info">Đang giao hàng</span>
+                                <span class="badge bg-info">Vận chuyển</span>
                                 break;
                             case 2:
-                                <span class="badge bg-primary">Đã giao hàng (Chờ xác nhận)</span>
+                                <span class="badge bg-primary">Chờ giao hàng</span>
                                 
                                 <form asp-controller="Hoadons" asp-action="CapNhatTrangThai" method="post" class="d-inline mt-1">
                                     <input type="hidden" name="id" value="@i.MaHd" />
@@ -113,3 +145,24 @@ else
 {
     <p>Vui lòng <a asp-action="Login">Đăng nhập</a></p>
 }
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const tabs = document.querySelectorAll(".order-tab-btn");
+        const rows = document.querySelectorAll(".order-row");
+
+        tabs.forEach(tab => {
+            tab.addEventListener("click", () => {
+                tabs.forEach(t => t.classList.remove("active"));
+                tab.classList.add("active");
+
+                const targetStatus = tab.dataset.status;
+                rows.forEach(row => {
+                    const rowStatus = row.dataset.status;
+                    const show = targetStatus === "all" || targetStatus === rowStatus;
+                    row.style.display = show ? "" : "none";
+                });
+            });
+        });
+    });
+</script>

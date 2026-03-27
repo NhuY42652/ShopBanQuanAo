@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShopBanQuanAoOnline")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e52b7d849861f188cee0945d99a60d0b7587b1a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92c6438b077613ab420af94934cdc1e513a38479")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShopBanQuanAoOnline")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShopBanQuanAoOnline")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
