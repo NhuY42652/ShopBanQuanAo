@@ -34,6 +34,7 @@ namespace ShopBanQuanAoOnline.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
+                .Include(m => m.ProductVariants)
                 .FirstOrDefaultAsync(m => m.MaMh == id);
 
             if (mathang == null)

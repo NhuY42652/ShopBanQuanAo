@@ -1,0 +1,28 @@
+﻿@model ShopBanQuanAoOnline.Models.ProductVariant
+
+@{
+    ViewData["Title"] = "Xóa biến thể";
+}
+
+<h1>Xóa biến thể</h1>
+<h4>Bạn có chắc muốn xóa biến thể này?</h4>
+
+<dl class="row">
+    <dt class="col-sm-2">Sản phẩm</dt>
+    <dd class="col-sm-10">@Model.Product.Ten</dd>
+
+    <dt class="col-sm-2">Size</dt>
+    <dd class="col-sm-10">@Model.Size</dd>
+
+    <dt class="col-sm-2">Màu</dt>
+    <dd class="col-sm-10">@Model.Color</dd>
+
+    <dt class="col-sm-2">SKU</dt>
+    <dd class="col-sm-10">@Model.Sku</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Xóa</button>
+    <a asp-action="Index" asp-route-maMh="@Model.ProductId" class="btn btn-secondary">Hủy</a>
+</form>

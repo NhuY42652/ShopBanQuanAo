@@ -51,6 +51,14 @@ public partial class Mathang
     [Display(Name = "Chi tiết hóa đơn")]
     public virtual ICollection<Cthoadon> Cthoadons { get; set; } = new List<Cthoadon>();
 
+    [InverseProperty("Product")]
+    [Display(Name = "Biến thể sản phẩm")]
+    public virtual ICollection<ProductVariant> ProductVariants { get; set; } = new List<ProductVariant>();
+
+    [InverseProperty("Product")]
+    [Display(Name = "Đánh giá sản phẩm")]
+    public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
+
     [ForeignKey("MaDm")]
     [InverseProperty("Mathangs")]
     [ValidateNever]

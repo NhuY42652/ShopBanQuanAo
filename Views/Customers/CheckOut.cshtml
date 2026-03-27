@@ -33,6 +33,14 @@
             </div>
 
             <div class="mb-3">
+                <label>Phương thức thanh toán</label>
+                <select name="paymentMethod" class="form-select">
+                    <option value="COD">Thanh toán khi nhận hàng (COD)</option>
+                    <option value="VNPAY">Thanh toán VNPay (Sandbox)</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
                 <input type="submit" class="btn btn-primary" value="Xác nhận đơn hàng" />
             </div>
         </form>
@@ -51,6 +59,7 @@
                     <th>STT</th>
                     <th>Sản phẩm</th>
                     <th>Giá</th>
+                    <th>Biến thể</th>
                     <th>Số lượng</th>
                     <th>Thành tiền</th>
 
@@ -65,6 +74,7 @@
                             <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
                             @(i.MatHang.Ten)
                         </td>
+                        <td>@(i.VariantLabel ?? "Mặc định")</td>
                         <td>@(i.MatHang.GiaBan?.ToString("n0")) đ</td>
                         <td>@(i.SoLuong)</td>
                         <td>@(thanhtien.ToString("n0")) đ</td>
@@ -72,7 +82,7 @@
                     </tr>
                 }
                 <tr>
-                    <td colspan="4" class="text-end fw-bold">Thành tiền</td>
+                    <td colspan="5" class="text-end fw-bold">Thành tiền</td>
                     <td><strong class="text-danger">@(tongtien.ToString("n0")) đ</strong></td>
                 </tr>
             </table>

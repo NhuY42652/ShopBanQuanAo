@@ -9,23 +9,38 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
 using Newtonsoft.Json;
 using ShopBanQuanAoOnline.Data;
-using ShopBanQuanAoOnline.Models; 
+using ShopBanQuanAoOnline.Models;
+using ShopBanQuanAoOnline.Services;
 namespace ShopBanQuanAoOnline.Controllers
 {
     public class CustomersController : Controller
     {
         private readonly ApplicationDbContext _context;
         private readonly IPasswordHasher<Khachhang> _passwordHasher;
+        private readonly IRecommendationService _recommendationService;
+        private readonly IPaymentGatewayClient _paymentGatewayClient;
+        private readonly IShippingProviderClient _shippingProviderClient;
+        private readonly ISmsGatewayClient _smsGatewayClient;
 
-        public CustomersController(ApplicationDbContext context, IPasswordHasher<Khachhang> passwordHasher)
+        public CustomersController(
+            ApplicationDbContext context,
+            IPasswordHasher<Khachhang> passwordHasher,
+            IRecommendationService recommendationService,
+            IPaymentGatewayClient paymentGatewayClient,
+            IShippingProviderClient shippingProviderClient,
+            ISmsGatewayClient smsGatewayClient)
         {
             _context = context;
             _passwordHasher = passwordHasher;
+            _recommendationService = recommendationService;
+            _paymentGatewayClient = paymentGatewayClient;
+            _shippingProviderClient = shippingProviderClient;
+            _smsGatewayClient = smsGatewayClient;
         }
 
         void GetData()
-        {          
-            ViewData["solg"] = GetCartItems().Count;            
+        {
+            ViewData["solg"] = GetCartItems().Count;
             ViewBag.danhmuc = _context.Danhmucs.ToList();
             var khEmail = HttpContext.Session.GetString("khachhang");
             if (!string.IsNullOrEmpty(khEmail))
@@ -121,6 +136,7 @@ namespace ShopBanQuanAoOnline.Controllers
 
             var mathang = await _context.Mathangs
                 .Include(m => m.MaDmNavigation)
+                .Include(m => m.ProductVariants)
                 .FirstOrDefaultAsync(m => m.MaMh == id);
 
             if (mathang == null)
@@ -141,53 +157,78 @@ namespace ShopBanQuanAoOnline.Controllers
             GetData();
             return View(mathang);
         }
-               
+
+        public async Task<IActionResult> GoiYSanPham(int take = 6)
+        {
+            var khEmail = HttpContext.Session.GetString("khachhang");
+            if (string.IsNullOrEmpty(khEmail))
+            {
+                return Unauthorized();
+            }
+
+            var customer = await _context.Khachhangs.FirstOrDefaultAsync(x => x.Email == khEmail);
+            if (customer == null)
+            {
+                return Unauthorized();
+            }
+
+            var recommendations = await _recommendationService.GetRecommendedProductsAsync(customer.MaKh, take);
+            return Json(recommendations.Select(x => new
+            {
+                x.MaMh,
+                x.Ten,
+                x.GiaBan,
+                x.HinhAnh,
+                x.MaDm
+            }));
+        }
+
         public async Task<IActionResult> DoanhThu(DateTime? tuNgay, DateTime? denNgay)
         {
             GetData();
 
             if (!tuNgay.HasValue || !denNgay.HasValue)
             {
-                tuNgay = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);                
+                tuNgay = new DateTime(DateTime.Now.Year, DateTime.Now.Month, 1);
                 denNgay = DateTime.Now.Date.AddDays(1).AddSeconds(-1);
             }
             else
-            {               
+            {
                 denNgay = denNgay.Value.Date.AddDays(1).AddSeconds(-1);
             }
 
             var query = _context.Hoadons
                 .Include(hd => hd.Cthoadons)
                 .ThenInclude(ct => ct.MaMhNavigation)
-                .Include(hd => hd.MaKhNavigation) 
+                .Include(hd => hd.MaKhNavigation)
                 .Where(hd => hd.Ngay >= tuNgay.Value
                              && hd.Ngay <= denNgay.Value
-                             && hd.TrangThai == 3); 
+                             && hd.TrangThai == 3);
             var listHoadon = await query.ToListAsync();
 
-            
+
             var reportData = new DoanhThuReportViewModel { TongDoanhThu = 0, TongSoLuong = 0 };
 
             if (listHoadon.Any())
             {
                 reportData.TongDoanhThu = (int)listHoadon
                     .SelectMany(hd => hd.Cthoadons)
-                    .Sum(ct => ct.ThanhTien ?? 0);                 
+                    .Sum(ct => ct.ThanhTien ?? 0);
                 reportData.TongSoLuong = (int)listHoadon
                     .SelectMany(hd => hd.Cthoadons)
                     .Sum(ct => ct.SoLuong ?? 0);
             }
 
-            
+
             ViewBag.ReportData = reportData;
 
-            ViewData["TuNgay"] = tuNgay.Value.ToString("yyyy-MM-dd");           
+            ViewData["TuNgay"] = tuNgay.Value.ToString("yyyy-MM-dd");
             ViewData["DenNgay"] = denNgay.Value.Date.ToString("yyyy-MM-dd");
 
             return View(listHoadon);
         }
-       
-        public async Task<IActionResult> AddToCart(int id)
+
+        public async Task<IActionResult> AddToCart(int id, int? variantId)
         {
             var mathang = await _context.Mathangs
                 .FirstOrDefaultAsync(m => m.MaMh == id);
@@ -197,28 +238,54 @@ namespace ShopBanQuanAoOnline.Controllers
                 TempData["ErrorMessage"] = "Sản phẩm không tồn tại.";
                 return RedirectToAction(nameof(Index));
             }
-           
+
             if (mathang.SoLuong <= 0)
             {
                 TempData["ErrorMessage"] = $"Sản phẩm '{mathang.Ten}' đã hết hàng!";
                 return RedirectToAction(nameof(Index));
             }
 
+            ProductVariant? selectedVariant = null;
+            if (variantId.HasValue)
+            {
+                selectedVariant = await _context.ProductVariants
+                    .FirstOrDefaultAsync(v => v.Id == variantId.Value && v.ProductId == id);
+
+                if (selectedVariant == null)
+                {
+                    TempData["ErrorMessage"] = "Biến thể sản phẩm không hợp lệ.";
+                    return RedirectToAction(nameof(Details), new { id });
+                }
+
+                if (selectedVariant.Stock <= 0)
+                {
+                    TempData["ErrorMessage"] = $"Biến thể {selectedVariant.Size}/{selectedVariant.Color} đã hết hàng.";
+                    return RedirectToAction(nameof(Details), new { id });
+                }
+            }
+
             var cart = GetCartItems();
-            var item = cart.Find(p => p.MatHang.MaMh == id);
+            var item = cart.Find(p => p.MatHang.MaMh == id && p.ProductVariantId == variantId);
 
             if (item != null)
-            {              
-                if ((item.SoLuong + 1) > mathang.SoLuong)
+            {
+                var availableStock = selectedVariant?.Stock ?? mathang.SoLuong ?? 0;
+                if ((item.SoLuong + 1) > availableStock)
                 {
-                    TempData["ErrorMessage"] = $"Số lượng sản phẩm '{mathang.Ten}' không đủ ({mathang.SoLuong} cái).";
+                    TempData["ErrorMessage"] = $"Số lượng sản phẩm '{mathang.Ten}' không đủ ({availableStock} cái).";
                     return RedirectToAction(nameof(ViewCart));
                 }
                 item.SoLuong++;
             }
             else
             {
-                cart.Add(new CartItem() { MatHang = mathang, SoLuong = 1 });
+                cart.Add(new CartItem()
+                {
+                    MatHang = mathang,
+                    ProductVariantId = selectedVariant?.Id,
+                    VariantLabel = selectedVariant == null ? null : $"{selectedVariant.Size} / {selectedVariant.Color}",
+                    SoLuong = 1
+                });
             }
 
             SaveCartSession(cart);
@@ -230,11 +297,11 @@ namespace ShopBanQuanAoOnline.Controllers
             GetData();
             return View(GetCartItems());
         }
-               
-        public IActionResult RemoveItem(int id)
+
+        public IActionResult RemoveItem(int id, int? variantId)
         {
             var cart = GetCartItems();
-            var item = cart.Find(p => p.MatHang.MaMh == id);
+            var item = cart.Find(p => p.MatHang.MaMh == id && p.ProductVariantId == variantId);
             if (item != null)
             {
                 cart.Remove(item);
@@ -242,13 +309,27 @@ namespace ShopBanQuanAoOnline.Controllers
             SaveCartSession(cart);
             return RedirectToAction(nameof(ViewCart));
         }
-                
-        public IActionResult UpdateItem(int id, int quantity)
+
+        public async Task<IActionResult> UpdateItem(int id, int quantity, int? variantId)
         {
             var cart = GetCartItems();
-            var item = cart.Find(p => p.MatHang.MaMh == id);
+            var item = cart.Find(p => p.MatHang.MaMh == id && p.ProductVariantId == variantId);
             if (item != null)
             {
+                int availableStock;
+                if (variantId.HasValue)
+                {
+                    var variant = await _context.ProductVariants.FirstOrDefaultAsync(v => v.Id == variantId.Value && v.ProductId == id);
+                    availableStock = variant?.Stock ?? 0;
+                }
+                else
+                {
+                    var product = await _context.Mathangs.FirstOrDefaultAsync(p => p.MaMh == id);
+                    availableStock = product?.SoLuong ?? 0;
+                }
+
+                if (quantity <= 0) quantity = 1;
+                if (quantity > availableStock) quantity = availableStock;
                 item.SoLuong = quantity;
             }
             SaveCartSession(cart);
@@ -275,7 +356,7 @@ namespace ShopBanQuanAoOnline.Controllers
         }
 
         [HttpPost, ActionName("CreateBill")]
-        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress)
+        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress, string paymentMethod = "COD")
         {
             var cart = GetCartItems();
             if (!cart.Any())
@@ -295,7 +376,18 @@ namespace ShopBanQuanAoOnline.Controllers
                     return RedirectToAction(nameof(ViewCart));
                 }
 
-              
+                if (item.ProductVariantId.HasValue)
+                {
+                    var variant = await _context.ProductVariants
+                        .FirstOrDefaultAsync(v => v.Id == item.ProductVariantId.Value && v.ProductId == item.MatHang.MaMh);
+                    if (variant == null || variant.Stock < item.SoLuong)
+                    {
+                        TempData["ErrorMessage"] = $"Biến thể **'{item.VariantLabel}'** của sản phẩm '{item.MatHang.Ten}' không đủ số lượng.";
+                        return RedirectToAction(nameof(ViewCart));
+                    }
+                }
+
+
                 mathang.LuotMua = (mathang.LuotMua ?? 0) + item.SoLuong;
                 mathang.SoLuong = (short)((mathang.SoLuong ?? 0) - item.SoLuong);
                 itemsToUpdate.Add(mathang);
@@ -305,11 +397,11 @@ namespace ShopBanQuanAoOnline.Controllers
             var hd = new Hoadon();
             hd.Ngay = DateTime.Now;
             hd.MaKh = kh.MaKh;
-            hd.TrangThai = 0; 
+            hd.TrangThai = 0;
             _context.Add(hd);
             await _context.SaveChangesAsync();
 
-            
+
             int tongtien = 0;
             for (int i = 0; i < cart.Count; i++)
             {
@@ -318,24 +410,57 @@ namespace ShopBanQuanAoOnline.Controllers
 
                 int thanhtien = (item.MatHang.GiaBan ?? 0) * item.SoLuong;
                 tongtien += thanhtien;
-                               
+
                 var ct = new Cthoadon();
                 ct.MaHd = hd.MaHd;
                 ct.MaMh = item.MatHang.MaMh;
+                ct.MaBienThe = item.ProductVariantId;
                 ct.DonGia = item.MatHang.GiaBan;
                 ct.SoLuong = (short)item.SoLuong;
                 ct.ThanhTien = thanhtien;
                 _context.Add(ct);
 
                 _context.Update(mathang);
+
+                if (item.ProductVariantId.HasValue)
+                {
+                    var variant = await _context.ProductVariants.FirstOrDefaultAsync(v => v.Id == item.ProductVariantId.Value);
+                    if (variant != null)
+                    {
+                        variant.Stock -= item.SoLuong;
+                        _context.Update(variant);
+                    }
+                }
             }
-           
+
             hd.TongTien = tongtien;
             _context.Update(hd);
             await _context.SaveChangesAsync();
-            
+
+            var shipmentCode = await _shippingProviderClient.CreateShipmentAsync(hd, diachi);
+
+            var paymentUrl = string.Empty;
+            if (paymentMethod.Equals("VNPAY", StringComparison.OrdinalIgnoreCase))
+            {
+                paymentUrl = await _paymentGatewayClient.CreatePaymentUrlAsync(
+                    hd,
+                    tongtien,
+                    Url.Action(nameof(CustomerInfo), "Customers", null, Request.Scheme) ?? string.Empty);
+
+                var paymentTransaction = new PaymentTransaction
+                {
+                    OrderId = hd.MaHd,
+                    Provider = "VNPAY",
+                    Amount = tongtien,
+                    Status = "Pending",
+                    TxnRef = $"VNPAY-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
+                };
+                _context.PaymentTransactions.Add(paymentTransaction);
+                await _context.SaveChangesAsync();
+            }
+
             if (saveAddress)
-            {                
+            {
                 var oldDefault = await _context.Diachis.FirstOrDefaultAsync(d => d.MaKh == kh.MaKh && d.MacDinh == 1);
                 if (oldDefault != null)
                 {
@@ -347,17 +472,23 @@ namespace ShopBanQuanAoOnline.Controllers
                 {
                     MaKh = kh.MaKh,
                     DiaChi1 = diachi,
-                    MacDinh = 1,                    
+                    MacDinh = 1,
                 };
                 _context.Add(newAddress);
                 await _context.SaveChangesAsync();
             }
-            
+
             ClearCart();
             GetData();
-            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý.";
+            await _smsGatewayClient.SendAsync(dienthoai, $"Don hang #{hd.MaHd} da duoc tao. Ma van don: {shipmentCode}");
+
+            TempData["SuccessMessage"] = $"Đặt hàng thành công! Đơn hàng #{hd.MaHd} đã **trừ kho** và đang chờ xử lý. Mã vận đơn: {shipmentCode}";
+            if (!string.IsNullOrEmpty(paymentUrl))
+            {
+                TempData["PaymentUrl"] = paymentUrl;
+            }
             return View(hd);
-        }             
+        }
 
         public IActionResult Register()
         {
@@ -378,7 +509,7 @@ namespace ShopBanQuanAoOnline.Controllers
                 ModelState.AddModelError("Email", "Email đã tồn tại.");
                 return View(kh);
             }
-                
+
             kh.MatKhau = _passwordHasher.HashPassword(kh, kh.MatKhau);
 
             _context.Add(kh);
@@ -429,6 +560,8 @@ namespace ShopBanQuanAoOnline.Controllers
             var hd = _context.Hoadons
                 .Include(ct => ct.Cthoadons)
                 .ThenInclude(c => c.MaMhNavigation)
+                .Include(ct => ct.Cthoadons)
+                .ThenInclude(c => c.MaBienTheNavigation)
                 .Where(h => h.MaKh == kh.MaKh);
 
             return View(await hd.ToListAsync());

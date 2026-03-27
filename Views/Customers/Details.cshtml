@@ -39,6 +39,34 @@
             <img width="300" height="300" src="~/images/@Html.DisplayFor(model => model.HinhAnh)" />
         </dd>
 
+        <dt class="col-sm-2">Biến thể</dt>
+        <dd class="col-sm-10">
+            @if (Model.ProductVariants != null && Model.ProductVariants.Any())
+            {
+                <form asp-controller="Customers" asp-action="AddToCart" method="get" class="row g-2">
+                    <input type="hidden" name="id" value="@Model.MaMh" />
+                    <div class="col-md-8">
+                        <select name="variantId" class="form-select" required>
+                            <option value="">-- Chọn size/màu --</option>
+                            @foreach (var v in Model.ProductVariants.Where(x => x.Stock > 0))
+                            {
+                                <option value="@v.Id">@v.Size / @v.Color (Kho: @v.Stock)</option>
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <button type="submit" class="btn btn-success">
+                            <i class="fa fa-cart-plus"></i> Thêm theo biến thể
+                        </button>
+                    </div>
+                </form>
+            }
+            else
+            {
+                <span class="text-muted">Sản phẩm chưa có biến thể, có thể mua theo tồn kho chung.</span>
+            }
+        </dd>
+
         <dt class="col-sm-2"></dt> 
         <dd class="col-sm-10">
             <div class="mt-3">

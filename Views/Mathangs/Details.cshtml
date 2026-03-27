@@ -43,7 +43,7 @@
         <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.LuotXem)
         </dt>
-        <dd class="col-sm-10">            
+        <dd class="col-sm-10">
             @(Model.LuotXem ?? 0)
         </dd>
         <dt class="col-sm-2">
@@ -65,9 +65,29 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.MaDmNavigation.Ten)
         </dd>
+
+        <dt class="col-sm-2">
+            Biến thể
+        </dt>
+        <dd class="col-sm-10">
+            @if (Model.ProductVariants != null && Model.ProductVariants.Any())
+            {
+                <ul class="mb-0">
+                    @foreach (var v in Model.ProductVariants)
+                    {
+                        <li>@v.Size - @v.Color (Kho: @v.Stock, SKU: @v.Sku)</li>
+                    }
+                </ul>
+            }
+            else
+            {
+                <span class="text-muted">Chưa có biến thể.</span>
+            }
+        </dd>
     </dl>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.MaMh">Edit</a> |
+    <a asp-controller="ProductVariants" asp-action="Index" asp-route-maMh="@Model?.MaMh">Quản lý biến thể</a> |
     <a asp-action="Index">Back to List</a>
 </div>

@@ -7,16 +7,19 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
+using ShopBanQuanAoOnline.Services;
 
 namespace ShopBanQuanAoOnline.Controllers
 {
     public class HoadonsController : Controller
     {
         private readonly ApplicationDbContext _context;
+        private readonly INotificationService _notificationService;
 
-        public HoadonsController(ApplicationDbContext context)
+        public HoadonsController(ApplicationDbContext context, INotificationService notificationService)
         {
             _context = context;
+            _notificationService = notificationService;
         }
 
         public async Task<IActionResult> Index()
@@ -33,11 +36,13 @@ namespace ShopBanQuanAoOnline.Controllers
             }
 
             var hoadon = await _context.Hoadons
-              
-                .Include(h => h.MaKhNavigation)                  
-                    .ThenInclude(kh => kh.Diachis)                
-                .Include(hd => hd.Cthoadons)                   
+
+                .Include(h => h.MaKhNavigation)
+                    .ThenInclude(kh => kh.Diachis)
+                .Include(hd => hd.Cthoadons)
                     .ThenInclude(ct => ct.MaMhNavigation)
+                .Include(hd => hd.Cthoadons)
+                    .ThenInclude(ct => ct.MaBienTheNavigation)
                 .FirstOrDefaultAsync(m => m.MaHd == id);
 
             if (hoadon == null)
@@ -170,7 +175,7 @@ namespace ShopBanQuanAoOnline.Controllers
             await _context.SaveChangesAsync();
         }
 
-        
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> CapNhatTrangThai(int id, int trangThaiMoi, string returnUrl)
@@ -189,6 +194,16 @@ namespace ShopBanQuanAoOnline.Controllers
             {
                 _context.Update(hoadon);
                 await _context.SaveChangesAsync();
+
+                var recipient = await _context.Khachhangs
+                    .Where(k => k.MaKh == hoadon.MaKh)
+                    .Select(k => k.Email ?? string.Empty)
+                    .FirstOrDefaultAsync();
+                await _notificationService.NotifyOrderStatusChangedAsync(
+                    hoadon.MaHd,
+                    hoadon.TrangThai?.ToString() ?? "Unknown",
+                    recipient);
+
                 TempData["SuccessMessage"] = $"Cập nhật trạng thái đơn hàng #{id} thành công!";
             }
             catch (DbUpdateConcurrencyException)
@@ -199,7 +214,7 @@ namespace ShopBanQuanAoOnline.Controllers
             return Redirect(returnUrl ?? nameof(Index));
         }
 
-      
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> HuyDon(int id, string returnUrl)
@@ -229,13 +244,20 @@ namespace ShopBanQuanAoOnline.Controllers
             if (hoadon.TrangThai != -1)
             {
                 await HoanSoLuongKho(hoadon.Cthoadons);
-            }          
+            }
             hoadon.TrangThai = -1;
 
             try
             {
                 _context.Update(hoadon);
                 await _context.SaveChangesAsync();
+
+                var recipient = await _context.Khachhangs
+                    .Where(k => k.MaKh == hoadon.MaKh)
+                    .Select(k => k.Email ?? string.Empty)
+                    .FirstOrDefaultAsync();
+                await _notificationService.NotifyOrderStatusChangedAsync(hoadon.MaHd, "Canceled", recipient);
+
                 TempData["SuccessMessage"] = $"Hóa đơn #{id} đã được hủy thành công và **số lượng kho đã được hoàn lại**!";
             }
             catch (DbUpdateConcurrencyException)

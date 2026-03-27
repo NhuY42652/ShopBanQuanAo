@@ -22,6 +22,10 @@ public partial class Cthoadon
     [Display(Name = "Mã Mặt Hàng")]
     public int MaMh { get; set; }
 
+    [Column("MaBienThe")]
+    [Display(Name = "Mã biến thể")]
+    public int? MaBienThe { get; set; }
+
     [Display(Name = "Đơn Giá")]
     public int? DonGia { get; set; }
 
@@ -40,4 +44,9 @@ public partial class Cthoadon
     [InverseProperty("Cthoadons")]
     [Display(Name = "Mặt Hàng")]
     public virtual Mathang MaMhNavigation { get; set; } = null!;
+    
+    [ForeignKey("MaBienThe")]
+    [InverseProperty("Cthoadons")]
+    [Display(Name = "Biến thể")]
+    public virtual ProductVariant? MaBienTheNavigation { get; set; }
 }

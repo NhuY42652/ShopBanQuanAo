@@ -32,6 +32,10 @@ public partial class Hoadon
     [Display(Name = "Chi tiết hóa đơn")]
     public virtual ICollection<Cthoadon> Cthoadons { get; set; } = new List<Cthoadon>();
 
+    [InverseProperty("Order")]
+    [Display(Name = "Giao dịch thanh toán")]
+    public virtual ICollection<PaymentTransaction> PaymentTransactions { get; set; } = new List<PaymentTransaction>();
+
     [ForeignKey("MaKh")]
     [InverseProperty("Hoadons")]
     [Display(Name = "Khách hàng")]

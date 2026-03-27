@@ -1390,3 +1390,4 @@ D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\staticweba
 D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQ.3362C1C8.Up2Date
 D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.genruntimeconfig.cache
 D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ref\ShopBanQuanAoOnline.dll
+D:\Van Nhanh\ShopBanQuanAoOnline\ShopBanQuanAoOnline\obj\Debug\net8.0\ShopBanQuanAoOnline.sourcelink.json

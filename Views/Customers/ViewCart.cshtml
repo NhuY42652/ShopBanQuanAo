@@ -12,6 +12,7 @@
         <tr>
             <th>STT</th>
             <th>Sản phẩm</th>
+            <th>Biến thể</th>
             <th>Giá</th>
             <th>Số lượng</th>
             <th>Thành tiền</th>
@@ -28,12 +29,14 @@
                     <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
                     @(i.MatHang.Ten)
                 </td>
+                <td>@(i.VariantLabel ?? "Mặc định")</td>
                 <td>@(i.MatHang.GiaBan?.ToString("N0")) đ</td>
                 <td>
                     <form asp-action="UpdateItem" method="post">
                         <div class="row">
                             <div class="col">
-                                <input name="id" type="hidden" asp-for="@(i.MatHang.MaMh)" />
+                                <input name="id" type="hidden" value="@i.MatHang.MaMh" />
+                                <input name="variantId" type="hidden" value="@i.ProductVariantId" />
                                 <input name="quantity" type="number" asp-for="@(i.SoLuong)" class="form-control" />
                             </div>
                             <div class="col">
@@ -43,11 +46,11 @@
                     </form>
                 </td>
                 <td>@(thanhtien.ToString("N0")) đ</td>
-                <td><a asp-action="RemoveItem" asp-route-id="@i.MatHang.MaMh" class="text-danger">Xóa</a></td>
+                <td><a asp-action="RemoveItem" asp-route-id="@i.MatHang.MaMh" asp-route-variantId="@i.ProductVariantId" class="text-danger">Xóa</a></td>
             </tr>
         }
         <tr>
-            <td colspan="4" class="text-end">Tổng Tiền</td>
+            <td colspan="5" class="text-end">Tổng Tiền</td>
             <td colspan="2"><strong class="text-danger">@(tongtien.ToString("N0")) đ</strong></td>
         </tr>
     </table>

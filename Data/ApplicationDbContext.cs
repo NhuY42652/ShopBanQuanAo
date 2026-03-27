@@ -33,8 +33,11 @@ public partial class ApplicationDbContext : IdentityDbContext
     public virtual DbSet<Mathang> Mathangs { get; set; }
 
     public virtual DbSet<SuKien> SuKiens { get; set; }
+    public virtual DbSet<ProductVariant> ProductVariants { get; set; }
+    public virtual DbSet<Review> Reviews { get; set; }
+    public virtual DbSet<PaymentTransaction> PaymentTransactions { get; set; }
 
-    
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -61,6 +64,11 @@ public partial class ApplicationDbContext : IdentityDbContext
             entity.HasOne(d => d.MaMhNavigation).WithMany(p => p.Cthoadons)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__CTHOADON__MaMH__5FB337D6");
+
+            entity.HasOne(d => d.MaBienTheNavigation).WithMany(p => p.Cthoadons)
+                .HasForeignKey(d => d.MaBienThe)
+                .OnDelete(DeleteBehavior.SetNull)
+                .HasConstraintName("FK_CTHOADON_ProductVariant");
         });
 
 
@@ -130,6 +138,46 @@ public partial class ApplicationDbContext : IdentityDbContext
 
             entity.Property(e => e.NgayTao).HasDefaultValueSql("(sysutcdatetime())");
             entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ProductVariant>(entity =>
+        {
+            entity.HasIndex(e => e.Sku).IsUnique();
+            entity.Property(e => e.Stock).HasDefaultValue(0);
+            entity.Property(e => e.CreatedAt).HasDefaultValueSql("(sysutcdatetime())");
+
+            entity.HasOne(d => d.Product)
+                .WithMany(p => p.ProductVariants)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<Review>(entity =>
+        {
+            entity.Property(e => e.CreatedAt).HasDefaultValueSql("(sysutcdatetime())");
+            entity.HasCheckConstraint("CK_Review_Rating", "[Rating] BETWEEN 1 AND 5");
+
+            entity.HasOne(d => d.Product)
+                .WithMany(p => p.Reviews)
+                .HasForeignKey(d => d.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            entity.HasOne(d => d.Customer)
+                .WithMany(p => p.Reviews)
+                .HasForeignKey(d => d.CustomerId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+
+        modelBuilder.Entity<PaymentTransaction>(entity =>
+        {
+            entity.HasIndex(e => e.TxnRef).IsUnique();
+            entity.Property(e => e.CreatedAt).HasDefaultValueSql("(sysutcdatetime())");
+            entity.Property(e => e.Status).HasDefaultValue("Pending");
+
+            entity.HasOne(d => d.Order)
+                .WithMany(p => p.PaymentTransactions)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
         });
 
         OnModelCreatingPartial(modelBuilder);

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ShopBanQuanAoOnline.Models.ProductVariant>
+
+@{
+    ViewData["Title"] = "Biến thể sản phẩm";
+}
+
+<h1>Quản lý biến thể sản phẩm</h1>
+
+<p>
+    <a asp-action="Create" asp-route-maMh="@ViewBag.SelectedProductId" class="btn btn-primary">Thêm biến thể</a>
+    <a asp-controller="Mathangs" asp-action="Index" class="btn btn-secondary">Về sản phẩm</a>
+</p>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Size</th>
+            <th>Màu</th>
+            <th>Tồn kho</th>
+            <th>SKU</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Product.Ten</td>
+                <td>@item.Size</td>
+                <td>@item.Color</td>
+                <td>@item.Stock</td>
+                <td>@item.Sku</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">Sửa</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

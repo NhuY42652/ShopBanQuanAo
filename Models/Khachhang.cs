@@ -45,4 +45,8 @@ public partial class Khachhang
     [InverseProperty("MaKhNavigation")]
     [Display(Name = "Danh sách hóa đơn")]
     public virtual ICollection<Hoadon> Hoadons { get; set; } = new List<Hoadon>();
+
+    [InverseProperty("Customer")]
+    [Display(Name = "Đánh giá đã gửi")]
+    public virtual ICollection<Review> Reviews { get; set; } = new List<Review>();
 }

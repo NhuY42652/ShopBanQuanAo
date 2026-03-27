@@ -2,9 +2,13 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ShopBanQuanAoOnline.Data;
 using ShopBanQuanAoOnline.Models;
+using ShopBanQuanAoOnline.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
+    ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
@@ -15,16 +19,31 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession();
 builder.Services.AddSingleton<IPasswordHasher<Khachhang>, PasswordHasher<Khachhang>>();
+builder.Services.AddScoped<IRecommendationService, RecommendationService>();
+builder.Services.AddScoped<INotificationService, NotificationService>();
+builder.Services.AddScoped<IPaymentGatewayClient, VnPayGatewayClient>();
+builder.Services.AddScoped<IShippingProviderClient, GhnShippingClient>();
+builder.Services.AddScoped<ISmsGatewayClient, SmsGatewayClient>();
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
+
+    var useSqlScriptInitializer = app.Configuration.GetValue<bool>("Database:UseSqlScriptInitializer");
+    if (useSqlScriptInitializer)
+    {
+        var scriptRelativePath = app.Configuration.GetValue<string>("Database:InitScriptPath")
+            ?? "scripts/db/ShopBanQuanAoOnline_Init.sql";
+        var scriptFullPath = Path.Combine(app.Environment.ContentRootPath, scriptRelativePath);
+
+        await DbScriptInitializer.InitializeFromScriptAsync(connectionString, scriptFullPath);
+    }
 }
 else
 {
-    app.UseExceptionHandler("/Home/Error");    
+    app.UseExceptionHandler("/Home/Error");
     app.UseHsts();
 }
 
