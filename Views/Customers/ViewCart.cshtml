@@ -2,7 +2,7 @@
 <div class="customer-page-card p-4 p-lg-5 mt-4">
     <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
         <h3 class="section-title mb-0">Giỏ hàng của bạn</h3>
-        <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle px-3 py-2">
+        <span class="badge me-2" style="background-color:#d6f4ff; color:#0b6b86; border:1px solid #9fdef3;">
             @Model.Count sản phẩm
         </span>
     </div>
@@ -13,8 +13,8 @@
         int thanhtien = 0;
         int tongtien = 0;
 
-        <div class="table-responsive">
-            <table class="table table-hover align-middle">
+        <div class="table-responsive border rounded-4">
+            <table class="table table-hover align-middle mb-0">
                 <thead class="table-info">
                     <tr>
                         <th>STT</th>
@@ -47,7 +47,7 @@
                                     <input name="id" type="hidden" value="@i.MatHang.MaMh" />
                                     <input name="variantId" type="hidden" value="@i.ProductVariantId" />
                                     <input name="quantity" type="number" asp-for="@(i.SoLuong)" class="form-control" min="1" />
-                                    <input class="btn btn-outline-warning" type="submit" value="Cập nhật" />
+                                    <input class="btn btn-outline-info" type="submit" value="Cập nhật" />
                                 </form>
                             </td>
                             <td class="fw-semibold">@(thanhtien.ToString("N0")) đ</td>
@@ -58,7 +58,7 @@
                             </td>
                         </tr>
                     }
-                    <tr>
+                    <tr class="table-light">
                         <td colspan="5" class="text-end fw-semibold">Tổng tiền</td>
                         <td colspan="2"><strong class="text-danger fs-5">@(tongtien.ToString("N0")) đ</strong></td>
                     </tr>

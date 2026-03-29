@@ -374,7 +374,7 @@ namespace ShopBanQuanAoOnline.Controllers
         }
 
         [HttpPost, ActionName("CreateBill")]
-        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress)
+        public async Task<IActionResult> CreateBill(string email, string hoten, string dienthoai, string diachi, bool saveAddress, string paymentMethod = "COD")
         {
             var cart = GetCartItems();
             if (!cart.Any())
@@ -454,19 +454,26 @@ namespace ShopBanQuanAoOnline.Controllers
             _context.Update(hd);
             await _context.SaveChangesAsync();
 
+            paymentMethod = string.IsNullOrWhiteSpace(paymentMethod) ? "COD" : paymentMethod.Trim().ToUpperInvariant();
             var bankQrUrl = string.Empty;
             var transferContent = $"DH{hd.MaHd}";
-                var accountNumber = _configuration["ExternalServices:BankQr:AccountNumber"] ?? "0000000000";
-                var accountName = _configuration["ExternalServices:BankQr:AccountName"] ?? "CHU TAI KHOAN";
-                var template = _configuration["ExternalServices:BankQr:Template"] ?? "compact2";
+            var bankBin = _configuration["ExternalServices:BankQr:BankBin"] ?? "970422";
+            var accountNumber = _configuration["ExternalServices:BankQr:AccountNumber"] ?? "0000000000";
+            var accountName = _configuration["ExternalServices:BankQr:AccountName"] ?? "CHU TAI KHOAN";
+            var template = _configuration["ExternalServices:BankQr:Template"] ?? "compact2";
+
+            if (paymentMethod == "BANK_QR")
+            {
+                bankQrUrl = $"https://img.vietqr.io/image/{bankBin}-{accountNumber}-{template}.png?amount={tongtien}&addInfo={Uri.EscapeDataString(transferContent)}&accountName={Uri.EscapeDataString(accountName)}";
+            }
 
             var paymentTransaction = new PaymentTransaction
             {
                 OrderId = hd.MaHd,
-                Provider = "BANK_QR",
+                Provider = paymentMethod,
                 Amount = tongtien,
                 Status = "Pending",
-                TxnRef = $"BANKQR-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
+                TxnRef = $"{paymentMethod}-{hd.MaHd}-{DateTimeOffset.UtcNow.ToUnixTimeSeconds()}"
             };
             _context.PaymentTransactions.Add(paymentTransaction);
             await _context.SaveChangesAsync();

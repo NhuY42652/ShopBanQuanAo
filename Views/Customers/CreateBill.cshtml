@@ -8,18 +8,23 @@
 
     @if (TempData["BankQrUrl"] != null)
     {
-        <div class="card mt-3" style="max-width:420px;">
-            <div class="card-header bg-info text-white">
-                Thanh toán chuyển khoản bằng mã QR
+        <div class="card mt-3 border-info" style="max-width:460px;">
+            <div class="card-header bg-info text-white fw-semibold">
+                Thanh toán chuyển khoản bằng mã QR (đơn #@Model.MaHd)
             </div>
             <div class="card-body">
                 <img src="@TempData["BankQrUrl"]" alt="Mã QR thanh toán" class="img-fluid border rounded mb-3" />
-                <p class="mb-1"><strong>Ngân hàng:</strong> @TempData["BankName"]</p>
-                <p class="mb-1"><strong>Số tài khoản:</strong> @TempData["BankAccount"]</p>
-                <p class="mb-1"><strong>Chủ tài khoản:</strong> @TempData["AccountName"]</p>
-                <p class="mb-1"><strong>Số tiền:</strong> @Model.TongTien?.ToString("n0") đ</p>
-                <p class="mb-0"><strong>Nội dung CK:</strong> @TempData["TransferContent"]</p>
+                
             </div>
+            <div class="card-footer bg-light small text-muted">
+                Vui lòng chuyển đúng số tiền và nội dung chuyển khoản để hệ thống đối soát nhanh hơn.
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-info mt-3 mb-0">
+            <strong>Phương thức thanh toán:</strong> COD - bạn thanh toán khi nhận hàng.
         </div>
     }
 </div>
