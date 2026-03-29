@@ -1,70 +1,80 @@
 ﻿@model List<ShopBanQuanAoOnline.Models.CartItem>
-<br />
-<h3>Giỏ hàng của bạn</h3>
-
-@if (Model.Count > 0)
-{
-    int stt = 1;         
-    int thanhtien = 0;     
-    int tongtien = 0;       
-
-    <table class="table">
-        <tr>
-            <th>STT</th>
-            <th>Sản phẩm</th>
-            <th>Biến thể</th>
-            <th>Giá</th>
-            <th>Số lượng</th>
-            <th>Thành tiền</th>
-            <th></th>
-        </tr>
-        @foreach (var i in Model)
-        {            
-            thanhtien = (i.MatHang.GiaBan ?? 0) * i.SoLuong;
-
-            tongtien += thanhtien;
-            <tr class="align-middle">
-                <td>@(stt++)</td>
-                <td>
-                    <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
-                    @(i.MatHang.Ten)
-                </td>
-                <td>@(i.VariantLabel ?? "Mặc định")</td>
-                <td>@(i.MatHang.GiaBan?.ToString("N0")) đ</td>
-                <td>
-                    <form asp-action="UpdateItem" method="post">
-                        <div class="row">
-                            <div class="col">
-                                <input name="id" type="hidden" value="@i.MatHang.MaMh" />
-                                <input name="variantId" type="hidden" value="@i.ProductVariantId" />
-                                <input name="quantity" type="number" asp-for="@(i.SoLuong)" class="form-control" />
-                            </div>
-                            <div class="col">
-                                <input class="btn btn-warning" type="submit" value="Cập nhật" />
-                            </div>
-                        </div>
-                    </form>
-                </td>
-                <td>@(thanhtien.ToString("N0")) đ</td>
-                <td><a asp-action="RemoveItem" asp-route-id="@i.MatHang.MaMh" asp-route-variantId="@i.ProductVariantId" class="text-danger">Xóa</a></td>
-            </tr>
-        }
-        <tr>
-            <td colspan="5" class="text-end">Tổng Tiền</td>
-            <td colspan="2"><strong class="text-danger">@(tongtien.ToString("N0")) đ</strong></td>
-        </tr>
-    </table>
-    <div class="text-end">
-        <a class="btn btn-secondary me-2" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
-
-        <a class="btn btn-info" asp-action="CheckOut">Thanh toán</a>
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <div class="d-flex flex-wrap justify-content-between align-items-center mb-3">
+        <h3 class="section-title mb-0">Giỏ hàng của bạn</h3>
+        <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle px-3 py-2">
+            @Model.Count sản phẩm
+        </span>
     </div>
-}
-else
-{
-    <p class="alert alert-danger">Giỏ hàng rỗng!</p>
 
-    <div class="text-center">
-        <a class="btn btn-secondary" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
-    </div>
-}
+    @if (Model.Count > 0)
+    {
+        int stt = 1;
+        int thanhtien = 0;
+        int tongtien = 0;
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle">
+                <thead class="table-info">
+                    <tr>
+                        <th>STT</th>
+                        <th>Sản phẩm</th>
+                        <th>Biến thể</th>
+                        <th>Giá</th>
+                        <th style="min-width: 180px;">Số lượng</th>
+                        <th>Thành tiền</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var i in Model)
+                    {
+                        thanhtien = (i.MatHang.GiaBan ?? 0) * i.SoLuong;
+
+                        tongtien += thanhtien;
+                        <tr>
+                            <td>@(stt++)</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="56" />
+                                    <span class="fw-semibold">@(i.MatHang.Ten)</span>
+                                </div>
+                            </td>
+                            <td>@(i.VariantLabel ?? "Mặc định")</td>
+                            <td>@(i.MatHang.GiaBan?.ToString("N0")) đ</td>
+                            <td>
+                                <form asp-action="UpdateItem" method="post" class="d-flex gap-2">
+                                    <input name="id" type="hidden" value="@i.MatHang.MaMh" />
+                                    <input name="variantId" type="hidden" value="@i.ProductVariantId" />
+                                    <input name="quantity" type="number" asp-for="@(i.SoLuong)" class="form-control" min="1" />
+                                    <input class="btn btn-outline-warning" type="submit" value="Cập nhật" />
+                                </form>
+                            </td>
+                            <td class="fw-semibold">@(thanhtien.ToString("N0")) đ</td>
+                            <td>
+                                <a asp-action="RemoveItem" asp-route-id="@i.MatHang.MaMh" asp-route-variantId="@i.ProductVariantId" class="btn btn-sm btn-outline-danger">
+                                    Xóa
+                                </a>
+                            </td>
+                        </tr>
+                    }
+                    <tr>
+                        <td colspan="5" class="text-end fw-semibold">Tổng tiền</td>
+                        <td colspan="2"><strong class="text-danger fs-5">@(tongtien.ToString("N0")) đ</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="text-end">
+            <a class="btn btn-outline-secondary me-2" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
+            <a class="btn btn-info text-white" asp-action="CheckOut">Thanh toán</a>
+        </div>
+    }
+    else
+    {
+        <p class="alert alert-warning">Giỏ hàng đang rỗng, hãy chọn thêm sản phẩm để tiếp tục nhé.</p>
+        <div class="text-center">
+            <a class="btn btn-outline-secondary" asp-controller="Customers" asp-action="Index">Tiếp tục mua sắm</a>
+        </div>
+    }
+</div>

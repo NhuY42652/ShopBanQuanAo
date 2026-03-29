@@ -4,42 +4,44 @@
 @{
     ViewData["Title"] = "Index";
 }
-<h3 class="text-info">Kết Quả Tìm Kiếm</h3>
-<div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-    @foreach (var item in Model)
-    {
-        <div class="col mb-5 box">
-            <div class="card h-100">              
-                <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Giảm giá</div>
-               
-                <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.MaMh">
-                    <img class="card-img-top" src="~/images/@Html.DisplayFor(modelItem => item.HinhAnh)" alt=" @Html.DisplayFor(modelItem => item.HinhAnh)" />
-                </a>
-              
-                <div class="card-body p-4">
-                    <div class="text-center">
-                       
-                        <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.MaMh">
-                            <h5 class="fw-bolder text-info">@Html.DisplayFor(modelItem => item.Ten)</h5>
-                        </a>
-                       
-                        <div class="d-flex justify-content-center small text-warning mb-2">
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star-fill"></div>
-                            <div class="bi-star"></div>
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <h3 class="section-title mb-4">Kết quả tìm kiếm</h3>
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+        @foreach (var item in Model)
+        {
+            <div class="col mb-5 box">
+                <div class="card h-100">
+                    <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Giảm giá</div>
+
+                    <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.MaMh">
+                        <img class="card-img-top" src="~/images/@Html.DisplayFor(modelItem => item.HinhAnh)" alt=" @Html.DisplayFor(modelItem => item.HinhAnh)" />
+                    </a>
+
+                    <div class="card-body p-4">
+                        <div class="text-center">
+
+                            <a class="text-decoration-none" asp-action="Details" asp-route-id="@item.MaMh">
+                                <h5 class="fw-bolder text-info">@Html.DisplayFor(modelItem => item.Ten)</h5>
+                            </a>
+
+                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star-fill"></div>
+                                <div class="bi-star"></div>
+                            </div>
+
+                            <span class="text-muted text-decoration-line-through"> @Html.DisplayFor(modelItem => item.GiaGoc)</span>
+                            <span class="text-danger fw-bolder"> @Html.DisplayFor(modelItem => item.GiaBan)</span>
                         </div>
-                      
-                        <span class="text-muted text-decoration-line-through"> @Html.DisplayFor(modelItem => item.GiaGoc)</span>
-                        <span class="text-danger fw-bolder"> @Html.DisplayFor(modelItem => item.GiaBan)</span>
+                    </div>
+
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-info mt-auto" asp-controller="Customers" asp-action="Details" asp-route-id="@item.MaMh">Chọn biến thể</a></div>
                     </div>
                 </div>
-                
-                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                    <div class="text-center"><a class="btn btn-outline-info mt-auto" asp-controller="Customers" asp-action="Details" asp-route-id="@item.MaMh">Chọn biến thể</a></div>
-                </div>
             </div>
-        </div>
-    }
+        }
+    </div>
 </div>

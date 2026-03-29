@@ -21,129 +21,145 @@
         font-weight: 500;
     }
 
-    .order-tab-btn.active {
-        color: #ee4d2d;
-        border-bottom-color: #ee4d2d;
+        .order-tab-btn.active {
+            color: #087990;
+            border-bottom-color: #0dcaf0;
+            background-color: rgba(13, 202, 240, 0.08);
+        }
+
+    .customer-order-card {
+        border: 1px solid rgba(13, 202, 240, 0.28);
+        border-radius: 14px;
+        background: rgba(255, 255, 255, 0.97);
+        box-shadow: 0 8px 24px rgba(13, 202, 240, 0.1);
     }
 </style>
 
 @if (ViewBag.khachhang != null)
 {
-    <h3>Chào @ViewBag.khachhang.Ten!</h3>
-    <p><a asp-action="Signout">Đăng xuất</a></p>
+    <div class="customer-page-card p-4 p-lg-5 mt-4">
+        <div class="d-flex justify-content-between align-items-center flex-wrap mb-3">
+            <h3 class="section-title mb-0">Xin chào @ViewBag.khachhang.Ten!</h3>
+            <a asp-action="Signout" class="btn btn-outline-secondary btn-sm">Đăng xuất</a>
+        </div>
 
-    <h2>Danh sách Đơn Hàng Của Bạn</h2>
-    <div class="order-tabs">
-        <button type="button" class="order-tab-btn active" data-status="all">Tất cả</button>
-        <button type="button" class="order-tab-btn" data-status="0">Chờ thanh toán</button>
-        <button type="button" class="order-tab-btn" data-status="1">Vận chuyển</button>
-        <button type="button" class="order-tab-btn" data-status="2">Chờ giao hàng</button>
-        <button type="button" class="order-tab-btn" data-status="3">Hoàn thành</button>
-        <button type="button" class="order-tab-btn" data-status="-1">Đã hủy</button>
+        <h2 class="h4 text-info mb-3">Danh sách đơn hàng của bạn</h2>
+        <div class="order-tabs">
+            <button type="button" class="order-tab-btn active" data-status="all">Tất cả</button>
+            <button type="button" class="order-tab-btn" data-status="0">Chờ thanh toán</button>
+            <button type="button" class="order-tab-btn" data-status="1">Vận chuyển</button>
+            <button type="button" class="order-tab-btn" data-status="2">Chờ giao hàng</button>
+            <button type="button" class="order-tab-btn" data-status="3">Hoàn thành</button>
+            <button type="button" class="order-tab-btn" data-status="-1">Đã hủy</button>
+        </div>
+
+        <div class="table-responsive customer-order-card p-2">
+            <table class="table table-hover align-middle mb-0">
+                <thead>
+                    <tr class="table-info">
+                        <th>Mã HĐ</th>
+                        <th>Ngày</th>
+                        <th>Chi tiết hóa đơn</th>
+                        <th>Tổng tiền</th>
+                        <th>Trạng thái & Hành động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var i in Model)
+                    {
+                        <tr class="order-row" data-status="@i.TrangThai">
+                            <td>@i.MaHd</td>
+                            <td>@i.Ngay</td>
+                            <td>
+                                <a data-bs-toggle="collapse" data-bs-target="#demo_@i.MaHd">Chi tiết đơn</a>
+                                <div id="demo_@i.MaHd" class="collapse">
+                                    <table class="table table-bordered table-sm mt-2">
+                                        <thead>
+                                            <tr>
+                                                <th>Mặt hàng</th>
+                                                <th>Biến thể</th>
+                                                <th>Đơn giá</th>
+                                                <th>Số lượng</th>
+                                                <th>Thành tiền</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            @foreach (var c in i.Cthoadons)
+                                            {
+                                                <tr>
+                                                    <td>
+                                                        <img src="~/images/@c.MaMhNavigation.HinhAnh" width="50" height="50" style="object-fit: cover; margin-right: 5px;" />
+                                                        @c.MaMhNavigation.Ten
+                                                    </td>
+                                                    <td>@(c.MaBienTheNavigation == null ? "Mặc định" : $"{c.MaBienTheNavigation.Size}/{c.MaBienTheNavigation.Color}")</td>
+                                                    <td>@c.DonGia?.ToString("N0") VNĐ</td>
+                                                    <td>@c.SoLuong</td>
+                                                    <td>@c.ThanhTien?.ToString("N0") VNĐ</td>
+                                                </tr>
+                                            }
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </td>
+                            <td>@i.TongTien?.ToString("N0") VNĐ</td>
+
+                            <td>
+                                @switch (i.TrangThai)
+                                {
+                                    case 0:
+                                        <span class="badge bg-warning text-dark mb-1">Chờ thanh toán</span>
+
+                                        <form asp-controller="Hoadons" asp-action="HuyDon" method="post" class="d-inline mt-1">
+                                            <input type="hidden" name="id" value="@i.MaHd" />
+                                            <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                            @Html.AntiForgeryToken()
+                                            <button type="submit" class="btn btn-sm btn-danger"
+                                                    onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng #@i.MaHd này không? Lưu ý, chỉ đơn hàng đang chờ xử lý mới có thể hủy.');">
+                                                <i class="fa fa-times"></i> Hủy Đơn
+                                            </button>
+                                        </form>
+                                        break;
+                                    case 1:
+                                        <span class="badge bg-info">Vận chuyển</span>
+                                        break;
+                                    case 2:
+                                        <span class="badge bg-primary">Chờ giao hàng</span>
+
+                                        <form asp-controller="Hoadons" asp-action="CapNhatTrangThai" method="post" class="d-inline mt-1">
+                                            <input type="hidden" name="id" value="@i.MaHd" />
+                                            <input type="hidden" name="trangThaiMoi" value="3" />
+                                            <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
+                                            @Html.AntiForgeryToken()
+                                            <button type="submit" class="btn btn-sm btn-success">
+                                                <i class="fa fa-check"></i> Đã nhận được hàng
+                                            </button>
+                                        </form>
+                                        break;
+                                    case 3:
+                                        <span class="badge bg-success">Đã nhận hàng (Hoàn thành)</span>
+                                        break;
+                                    case -1:
+                                        <span class="badge bg-danger">Đã Hủy</span>
+                                        break;
+                                    default:
+                                        <span>Trạng thái không xác định</span>
+                                        break;
+                                }
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
     </div>
-
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th>Mã HĐ</th>
-                <th>Ngày</th>
-                <th>Chi tiết hóa đơn</th>
-                <th>Tổng tiền</th>
-                <th>Trạng thái & Hành động</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var i in Model) 
-            {
-                <tr class="order-row" data-status="@i.TrangThai">
-                    <td>@i.MaHd</td>
-                    <td>@i.Ngay</td>
-                    <td>
-                        <a data-bs-toggle="collapse" data-bs-target="#demo_@i.MaHd">Chi tiết đơn</a>
-                        <div id="demo_@i.MaHd" class="collapse">
-                            <table class="table table-bordered table-sm mt-2">
-                                <thead>
-                                    <tr>
-                                        <th>Mặt hàng</th>
-                                        <th>Biến thể</th>
-                                        <th>Đơn giá</th>
-                                        <th>Số lượng</th>
-                                        <th>Thành tiền</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    @foreach (var c in i.Cthoadons) 
-                                    {
-                                        <tr>
-                                            <td>
-                                                <img src="~/images/@c.MaMhNavigation.HinhAnh" width="50" height="50" style="object-fit: cover; margin-right: 5px;" />
-                                                @c.MaMhNavigation.Ten
-                                            </td>
-                                            <td>@(c.MaBienTheNavigation == null ? "Mặc định" : $"{c.MaBienTheNavigation.Size}/{c.MaBienTheNavigation.Color}")</td>
-                                            <td>@c.DonGia?.ToString("N0") VNĐ</td>
-                                            <td>@c.SoLuong</td>
-                                            <td>@c.ThanhTien?.ToString("N0") VNĐ</td>
-                                        </tr>
-                                    }
-                                </tbody>
-                            </table>
-                        </div>
-                    </td>
-                    <td>@i.TongTien?.ToString("N0") VNĐ</td>
-                   
-                    <td>
-                        @switch (i.TrangThai)
-                        {
-                            case 0:
-                                <span class="badge bg-warning text-dark">Chờ thanh toán</span>
-                                
-                                <form asp-controller="Hoadons" asp-action="HuyDon" method="post" class="d-inline mt-1">
-                                    <input type="hidden" name="id" value="@i.MaHd" />
-                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
-                                    @Html.AntiForgeryToken()
-                                    <button type="submit" class="btn btn-sm btn-danger"
-                                            onclick="return confirm('Bạn có chắc chắn muốn hủy đơn hàng #@i.MaHd này không? Lưu ý, chỉ đơn hàng đang chờ xử lý mới có thể hủy.');">
-                                        <i class="fa fa-times"></i> Hủy Đơn
-                                    </button>
-                                </form>
-                                break;
-                            case 1:
-                                <span class="badge bg-info">Vận chuyển</span>
-                                break;
-                            case 2:
-                                <span class="badge bg-primary">Chờ giao hàng</span>
-                                
-                                <form asp-controller="Hoadons" asp-action="CapNhatTrangThai" method="post" class="d-inline mt-1">
-                                    <input type="hidden" name="id" value="@i.MaHd" />
-                                    <input type="hidden" name="trangThaiMoi" value="3" />
-                                    <input type="hidden" name="returnUrl" value="@Context.Request.Path" />
-                                    @Html.AntiForgeryToken()
-                                    <button type="submit" class="btn btn-sm btn-success">
-                                        <i class="fa fa-check"></i> Đã nhận được hàng
-                                    </button>
-                                </form>
-                                break;
-                            case 3:
-                                <span class="badge bg-success">Đã nhận hàng (Hoàn thành)</span>
-                                break;
-                            case -1: 
-                                <span class="badge bg-danger">Đã Hủy</span>
-                                break;
-                            default:
-                                <span>Trạng thái không xác định</span>
-                                break;
-                        }
-                    </td>
-                  
-                </tr>
-            }
-        </tbody>
-    </table>
 
 }
 else
 {
-    <p>Vui lòng <a asp-action="Login">Đăng nhập</a></p>
+    <div class="customer-page-card p-4 mt-4">
+        <p class="mb-0">Vui lòng <a asp-action="Login">Đăng nhập</a> để xem đơn hàng của bạn.</p>
+    </div>
 }
 
 <script>

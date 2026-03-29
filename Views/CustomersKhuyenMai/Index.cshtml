@@ -4,55 +4,55 @@
     ViewData["Title"] = "Index";
 }
 
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <h2 class="section-title text-center mb-2">Khuyến Mãi Hấp Dẫn Nhất</h2>
+    <p class="text-center text-muted mb-4">Nhanh tay nhận ngay các ưu đãi đặc biệt từ Shop Quần Áo!</p>
 
-<h2 class="text-center mb-4">Khuyến Mãi Hấp Dẫn Nhất</h2>
+    <div class="promotion-container">
+        @foreach (var item in Model.Where(k => k.TrangThai == true))
+        {
+            var isExpired = item.NgayKetThuc < DateOnly.FromDateTime(DateTime.Now);
+            var isActive = item.NgayBatDau <= DateOnly.FromDateTime(DateTime.Now) && item.NgayKetThuc >= DateOnly.FromDateTime(DateTime.Now);
 
-<p>Nhanh tay nhận ngay các ưu đãi đặc biệt từ Shop Quần Áo!</p>
+            <div class="promotion-card">
+                <span class="badge-status @(isActive && !isExpired ? "active-badge" : "ended-badge")">
+                    @(isActive && !isExpired ? "Đang Diễn Ra" : "Đã Kết Thúc")
+                </span>
 
-<div class="promotion-container">
-    @foreach (var item in Model.Where(k => k.TrangThai == true)) 
-    {
-        var isExpired = item.NgayKetThuc < DateOnly.FromDateTime(DateTime.Now);
-        var isActive = item.NgayBatDau <= DateOnly.FromDateTime(DateTime.Now) && item.NgayKetThuc >= DateOnly.FromDateTime(DateTime.Now);
+                <div class="card-title">@item.TenKhuyenMai</div>
 
-        <div class="promotion-card">
-            <span class="badge-status @(isActive && !isExpired ? "active-badge" : "ended-badge")">
-                @(isActive && !isExpired ? "Đang Diễn Ra" : "Đã Kết Thúc")
-            </span>
+                <div class="card-value">
+                    @if (item.HinhThuc == "Phần trăm")
+                    {
+                        <span>@item.GiaTri% OFF</span>
+                    }
+                    else if (item.HinhThuc == "Giá trị cố định")
+                    {
+                        <span>@String.Format("{0:N0} VNĐ", item.GiaTri)</span>
+                    }
+                    else
+                    {
+                        <span>Ưu đãi đặc biệt</span>
+                    }
+                </div>
 
-            <div class="card-title">@item.TenKhuyenMai</div>
+                <div class="card-description">
+                    <strong>Chi tiết:</strong> @item.MoTa
+                </div>
 
-            <div class="card-value">
-                @if (item.HinhThuc == "Phần trăm")
-                {
-                    <span>@item.GiaTri% OFF</span>
-                }
-                else if (item.HinhThuc == "Giá trị cố định")
-                {
-                    <span>@String.Format("{0:N0} VNĐ", item.GiaTri)</span>
-                }
-                else
-                {
-                    <span>Ưu đãi đặc biệt</span>
-                }
+                <div class="card-date">
+                    <i class="date-icon fas fa-calendar-alt"></i>
+                    Thời gian: @item.NgayBatDau.ToString("dd/MM/yyyy") - @item.NgayKetThuc.ToString("dd/MM/yyyy")
+                </div>
+                <a asp-action="Details" asp-route-id="@item.KhuyenMaiId" class="btn btn-info text-white w-100 mt-2">
+                    Xem Chi Tiết & Áp Dụng
+                </a>
             </div>
+        }
 
-            <div class="card-description">
-                <strong>Chi tiết:</strong> @item.MoTa
-            </div>
-
-            <div class="card-date">
-                <i class="date-icon fas fa-calendar-alt"></i>
-                Thời gian: @item.NgayBatDau.ToString("dd/MM/yyyy") - @item.NgayKetThuc.ToString("dd/MM/yyyy")
-            </div>
-            <a asp-action="Details" asp-route-id="@item.KhuyenMaiId" class="btn btn-primary" style="width: 100%; margin-top: 10px; background-color: #ff5722; border-color: #ff5722;">
-                Xem Chi Tiết & Áp Dụng
-            </a>
-        </div>
-    }
-
-    @if (Model.All(k => k.TrangThai != true))
-    {
-        <p style="text-align: center; width: 100%; color: #999;">Hiện không có khuyến mãi nào đang diễn ra.</p>
-    }
+        @if (Model.All(k => k.TrangThai != true))
+        {
+            <p class="text-center w-100 text-muted">Hiện không có khuyến mãi nào đang diễn ra.</p>
+        }
+    </div>
 </div>

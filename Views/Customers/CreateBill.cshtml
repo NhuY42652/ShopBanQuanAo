@@ -2,24 +2,24 @@
 @{
     ViewData["Title"] = "Đặt hàng thành công";
 }
-<h3 class="text-warmning">Đặt hàng thành công</h3>
-<h3 class="text-success">
-<p>Đơn hàng mã số @Model.MaHd trị giá @(Model.TongTien)đ đã được hệ thống ghi nhận. Chúng tôi sẽ sớm liên hệ bạn để xác nhận...</p>
-</h3>
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <h3 class="section-title">Đặt hàng thành công</h3>
+    <p class="text-success fs-5 mb-0">Đơn hàng mã số <strong>@Model.MaHd</strong> trị giá <strong>@(Model.TongTien?.ToString("n0"))đ</strong> đã được hệ thống ghi nhận. Chúng tôi sẽ sớm liên hệ bạn để xác nhận.</p>
 
-@if (TempData["BankQrUrl"] != null)
-{
-    <div class="card mt-3" style="max-width:420px;">
-        <div class="card-header bg-info text-white">
-            Thanh toán chuyển khoản bằng mã QR
+    @if (TempData["BankQrUrl"] != null)
+    {
+        <div class="card mt-3" style="max-width:420px;">
+            <div class="card-header bg-info text-white">
+                Thanh toán chuyển khoản bằng mã QR
+            </div>
+            <div class="card-body">
+                <img src="@TempData["BankQrUrl"]" alt="Mã QR thanh toán" class="img-fluid border rounded mb-3" />
+                <p class="mb-1"><strong>Ngân hàng:</strong> @TempData["BankName"]</p>
+                <p class="mb-1"><strong>Số tài khoản:</strong> @TempData["BankAccount"]</p>
+                <p class="mb-1"><strong>Chủ tài khoản:</strong> @TempData["AccountName"]</p>
+                <p class="mb-1"><strong>Số tiền:</strong> @Model.TongTien?.ToString("n0") đ</p>
+                <p class="mb-0"><strong>Nội dung CK:</strong> @TempData["TransferContent"]</p>
+            </div>
         </div>
-        <div class="card-body">
-            <img src="@TempData["BankQrUrl"]" alt="Mã QR thanh toán" class="img-fluid border rounded mb-3" />
-            <p class="mb-1"><strong>Ngân hàng:</strong> @TempData["BankName"]</p>
-            <p class="mb-1"><strong>Số tài khoản:</strong> @TempData["BankAccount"]</p>
-            <p class="mb-1"><strong>Chủ tài khoản:</strong> @TempData["AccountName"]</p>
-            <p class="mb-1"><strong>Số tiền:</strong> @Model.TongTien?.ToString("n0") đ</p>
-            <p class="mb-0"><strong>Nội dung CK:</strong> @TempData["TransferContent"]</p>
-        </div>
-    </div>
-}
+    }
+</div>

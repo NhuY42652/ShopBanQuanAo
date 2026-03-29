@@ -1,14 +1,14 @@
 ﻿@model IEnumerable<ShopBanQuanAoOnline.Models.SuKien>
 
-<div class="container mt-4">
-    <h2 class="text-center mb-4">Sự kiện nổi bật</h2>
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <h2 class="section-title text-center mb-4">Sự kiện nổi bật</h2>
 
     <div class="row">
         @foreach (var item in Model)
         {
             <div class="col-md-4 mb-4">
                 <div class="card shadow-sm h-100">
-                  
+
                     <div class="card-body">
                         <h5 class="card-title">@item.TenSuKien</h5>
 
@@ -20,7 +20,7 @@
                         <p class="card-text text-truncate">@item.MoTa</p>
 
                         <a asp-action="Details" asp-route-id="@item.SuKienId"
-                           class="btn btn-primary w-100 mt-2">
+                           class="btn btn-info text-white w-100 mt-2">
                             Xem chi tiết
                         </a>
                     </div>

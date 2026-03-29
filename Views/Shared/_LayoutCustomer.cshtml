@@ -13,6 +13,16 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
 	<link href="~/css/styles.css" rel="stylesheet" />
 	<style>
+		:root {
+			--mika-cyan: #0dcaf0;
+			--mika-cyan-dark: #0aa2c0;
+			--mika-surface: #f6fcff;
+		}
+
+		body {
+			background: linear-gradient(180deg, #f8fdff 0%, #ffffff 100%);
+		}
+
 		.box {
 		transition: all 0.3s ease;
 		}
@@ -21,13 +31,7 @@
 		transform: scale(1.1);
 		}		
 		.main-content-bg {
-		
-
-		background-image: url('/images/carousel/bg3.jpg');
-		background-size: cover; 
-		background-attachment: fixed;
-		background-position: center;
-		
+		background: linear-gradient(180deg, rgba(13, 202, 240, 0.08) 0%, rgba(255, 255, 255, 0.95) 35%, rgba(255, 255, 255, 1) 100%);
 		padding-top: 50px;
 		padding-bottom: 50px;
 		}
@@ -40,6 +44,32 @@
 			background-attachment: scroll;
 			background-position: center center;
 			background-size: cover;
+		}
+
+		.navbar.bg-info {
+			background: linear-gradient(90deg, var(--mika-cyan-dark), var(--mika-cyan)) !important;
+			box-shadow: 0 8px 20px rgba(13, 202, 240, 0.25);
+		}
+
+		.navbar .nav-link {
+			border-radius: 8px;
+			padding: 0.45rem 0.75rem !important;
+		}
+
+			.navbar .nav-link:hover {
+				background-color: rgba(255, 255, 255, 0.15);
+			}
+
+		.customer-page-card {
+			background-color: rgba(255,255,255,0.96);
+			border: 1px solid rgba(13, 202, 240, 0.25);
+			border-radius: 16px;
+			box-shadow: 0 8px 30px rgba(13, 202, 240, 0.12);
+		}
+
+		.section-title {
+			font-weight: 700;
+			color: #087990;
 		}
 	</style>
 </head>
@@ -76,7 +106,7 @@
 					</li>
 					
 				</ul>
-				<div class="d-flex">
+				<div class="d-flex align-items-center gap-2 flex-wrap justify-content-end">
 					@if (ViewBag.khachhang != null)
 					{
 						<a asp-action="CustomerInfo" class="btn btn-outline-light"> Xin chào @ViewBag.khachhang.Ten</a>
@@ -87,14 +117,14 @@
 						<i class="bi bi-person me-1"></i>
 						Đăng nhập
 					</a>
-					}&nbsp;&nbsp;&nbsp;&nbsp;
+					}
 					<a asp-controller="Customers" asp-action="ViewCart" class="btn btn-outline-light">
 						<i class="bi bi-bag me-1"></i>
 						Giỏ hàng
 						<span class="badge bg-danger text-white ms-1 rounded-pill">@ViewData["solg"]</span>
 					</a>
 					<div>
-						<form class="d-flex" asp-action="Tim">
+						<form class="d-flex gap-2" asp-action="Tim">
 							<input type="text" name="tukhoa" class="form-control" placeholder="Nhập từ khóa" value="@ViewBag.tukhoa" />
 							<input type="submit" value="Tìm" class="btn btn-outline-warning" />
 						</form>

@@ -3,11 +3,16 @@
     ViewData["Title"] = "Thanh toán";    
     var defaultAddress = ViewBag.DefaultAddress as ShopBanQuanAoOnline.Models.Diachi;
 }
-<p>Vui lòng kiểm tra đầy đủ thông tin trước khi hoàn tất đơn hàng</p>
-<div class="row">
-    <div class="col">
-        <h4 class="text-info">Thông tin giao hàng</h4>
-        <form asp-action="CreateBill">
+<div class="customer-page-card p-4 p-lg-5 mt-4">
+    <div class="d-flex justify-content-between align-items-center flex-wrap mb-4">
+        <h3 class="section-title mb-0">Thanh toán</h3>
+        <small class="text-muted">Vui lòng kiểm tra thông tin trước khi hoàn tất đơn hàng.</small>
+    </div>
+
+    <div class="row g-4">
+    <div class="col-lg-5">
+        <h4 class="text-info mb-3">Thông tin giao hàng</h4>
+        <form asp-action="CreateBill" class="border rounded-4 p-3 bg-light">
             <div class="mb-3">
                 <label>Email</label>
                 <input name="email" class="form-control" type="text" value="@ViewBag.khachhang.Email" readonly />
@@ -38,59 +43,61 @@
                     <option value="COD">Thanh toán khi nhận hàng (COD)</option>
                     <option value="BANK_QR">Chuyển khoản ngân hàng qua mã QR</option>
                 </select>
-                <input class="form-control" value="Chuyển khoản ngân hàng qua mã QR (BankQR)" readonly />
-                <small class="form-text text-muted">
+                <small class="form-text text-muted d-block mt-2">
                     Gợi ý: chọn QR để chuyển khoản nhanh theo đúng số tiền đơn hàng.
                 </small>
             </div>
 
             <div class="mb-3">
-                <input type="submit" class="btn btn-primary" value="Xác nhận đơn hàng" />
+                <input type="submit" class="btn btn-info text-white w-100" value="Xác nhận đơn hàng" />
             </div>
         </form>
 
     </div>
-    <div class="col">
-        <h4 class="text-info">Thông tin đơn hàng</h4>
+    <div class="col-lg-7">
+        <h4 class="text-info mb-3">Thông tin đơn hàng</h4>
         @if (Model.Count > 0)
         {
             int stt = 1;        
             int thanhtien = 0;     
             int tongtien = 0;      
 
-            <table class="table">
-                <tr class="table-info">
-                    <th>STT</th>
-                    <th>Sản phẩm</th>
-                    <th>Giá</th>
-                    <th>Biến thể</th>
-                    <th>Số lượng</th>
-                    <th>Thành tiền</th>
-
-                </tr>
-                @foreach (var i in Model)
-                {
-                    thanhtien = i.MatHang.GiaBan * i.SoLuong ?? 1;
-                    tongtien += thanhtien;
-                    <tr class="align-middle">
-                        <td>@(stt++)</td>
-                        <td>
-                            <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="50" />
-                            @(i.MatHang.Ten)
-                        </td>
-                        <td>@(i.MatHang.GiaBan?.ToString("n0")) đ</td>
-                        <td>@(i.VariantLabel ?? "-")</td>
-                        <td>@(i.SoLuong)</td>
-                        <td>@(thanhtien.ToString("n0")) đ</td>
+            <div class="table-responsive border rounded-4 bg-white">
+                <table class="table table-hover mb-0">
+                    <tr class="table-info">
+                        <th>STT</th>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Biến thể</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
 
                     </tr>
-                }
-                <tr>
-                    <td colspan="5" class="text-end fw-bold">Thành tiền</td>
-                    <td><strong class="text-danger">@(tongtien.ToString("n0")) đ</strong></td>
-                </tr>
-            </table>
+                    @foreach (var i in Model)
+                    {
+                        thanhtien = i.MatHang.GiaBan * i.SoLuong ?? 1;
+                        tongtien += thanhtien;
+                        <tr class="align-middle">
+                            <td>@(stt++)</td>
+                            <td>
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="~/images/@(i.MatHang.HinhAnh)" class="img-thumbnail" width="52" />
+                                    <span class="fw-semibold">@(i.MatHang.Ten)</span>
+                                </div>
+                            </td>
+                            <td>@(i.MatHang.GiaBan?.ToString("n0")) đ</td>
+                            <td>@(i.VariantLabel ?? "-")</td>
+                            <td>@(i.SoLuong)</td>
+                            <td>@(thanhtien.ToString("n0")) đ</td>
 
+                        </tr>
+                    }
+                    <tr>
+                        <td colspan="5" class="text-end fw-bold">Thành tiền</td>
+                        <td><strong class="text-danger fs-5">@(tongtien.ToString("n0")) đ</strong></td>
+                    </tr>
+            </div>
         }
     </div>
+</div>
 </div>
